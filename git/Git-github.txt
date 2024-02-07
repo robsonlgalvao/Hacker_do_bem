@@ -14,7 +14,7 @@ git add README.md
 git commit -m "add README to initial commit"
 
 # provide the path for the repository you created on github
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git (git remote add origin https://github.com/robsonlgalvao/Hacker_do_bem.git)
 
 # push changes to github
 git push --set-upstream origin main

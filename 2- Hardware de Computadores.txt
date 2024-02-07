@@ -1,0 +1,67 @@
+Introcução Grandezas computacionais
+
+Computadores foram criados basicamente pela necessidade de calculos complexos com velocidade
+
+Teoria de boole - Lógica utilizada pelos computadores
+Máquinas de Turing - Base teórica para computação
+Eniac - Primeiro computador digital
+
+Grandezas Computacionais
+Sistemas numéricos
+
+bit(b)
+byte(B) = 8b
+Kilobyte(kb)  = 1000B/Kibibyte(kib)=1024B
+Megabyte(mb)  = 1000kb/mebibyte(mib)=1024kib
+gigabyte(gb)  = 1000mb/gibibyte(gib)=1024mib
+terabyte(tb)  = 1000gb/tebibyte(tib)=1024gib
+petabyte(pb)  = 1000tb/pebibyte(pib)=1024tib
+exabyte(ez)   = 1000pb/exbibyte(eib)=1024pib
+zettabyte(zb) = 1000ez/zebibyte(zib)=1024eib
+yottabyte(yb) = 1000zb/yobibyte(yib)=1024zib
+
+Velocidade
+
+Internet 
+Kbps - kilobit por segundo
+Kbps - megabit por segundo
+
+Transferencia de arquivo
+KB/s - kilobyte por segundo
+MB/s - megabyte por segundo
+
+Grandezas Elétricas
+Hertz(Hz) - Frequência
+Volts(V)  - Tensão
+Ampére(A) - Corrente
+Watt(W)   - Potência
+Pixel     - Resolução de imagens/telas/câmeras
+DPI/ppi   - Dots per inch(Pontos por polegadas) mouse/tela
+
+Bases numéricas
+
+Decimal(base10)
+0,1,2,3,4,5,6,7,8,9
+
+Hexadecimal(base16)
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+Binário(base2)
+0,1
+
+Converter
+Notação posicional
+
+exemplo 
+6238 = 6000 + 200 + 30 + 8
+6238 = 6x1000 + 2x100 + 3x10 + 8x1
+6238 = 6x10³ + 2x10² + 3x10¹ + 8x10º
+
+Binario para decimal
+11110001base2 = 1x2elevado7 + 1x2elevado6 + 1x2elevado5 + 1x2elevado4 + 0x2elevado3 + 0x2elevado2 + 0x2elevado1 + 1x2elevado0
+11110001base2 = 1x128 + 1x64 + 1x32 + 1x16 + 0x8 + 0x4 + 0x2 + 1x1
+11110001base2 = 128 + 64 + 32 + 16 + 0 + 0 + 0 + 1
+11110001base2 = 241
+
+Decimal para binário
+Dividindo o numero por 2 e usando os restos para formar os números(pegar os restos de trás pra frente)
