@@ -8,7 +8,10 @@ Eniac - Primeiro computador digital
 
 Grandezas Computacionais
 Sistemas numéricos
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6000c4fc0447d93aefae9f689779e429297bc90f
 bit(b)
 byte(B) = 8b
 Kilobyte(kb)  = 1000B/Kibibyte(kib)=1024B
@@ -20,6 +23,259 @@ exabyte(ez)   = 1000pb/exbibyte(eib)=1024pib
 zettabyte(zb) = 1000ez/zebibyte(zib)=1024eib
 yottabyte(yb) = 1000zb/yobibyte(yib)=1024zib
 
+<<<<<<< HEAD
+Componentes do computador
+
+CPU (Central processing unit) Responsável por processar dados e tranformar em informação
+Caracteristicas
+
+Frequência(velocidade,clock) -  medido em HZ defice a capacidade do processador ao processar(contas em paralelo)
+
+Núcleos -  existem processadores com um ou vários núcleos
+
+Cache - É o tipo de memória que auxilia no desempenho fazendo diminuir o tempo de transmissão de informações entre processador e outros componentes.
+
+Arquiteturas
+X86(32bits) - CISC
+X64(64bitis) - CISC
+ARM - RISC
+
+Nomeclaturas
+
+AMD Ryzen 7 3700X  ------------ Intel core i7 11700F
+
+X- Alta performance		K- Alto Desempenho/desbloqueado
+G- Video integrado		F- Sem video integrado
+U- Baixo consumo		S- Edição expecial
+3D- Empilamento de cache	U- Eficiência Enegética
+
+Placa-Mãe
+
+Principal componente onde tudo é conectatos
+
+onboard - oq vem incluso na placa
+offboard - oq não vem incluso(necessário encaixar)
+
+Socket - Onde coloca o processador
+Slot de memória - onde coloca a memória
+Slot PCIe -  onde coloca placas de expanção -exemplo placa de vídeo.
+Chipset - Um auxliar para o processador
+bateria bios - Mantem a BIOs com energia para menter as configurações
+BIOS - chip onde fica o programa gerenciador da placa-mãe
+Conector 24 pinos - Leva energia para barramentos da placa mãe
+Conector 8 pinos -  Leva energia para o processador
+Conector SATA - Conecta dispositivos SATA
+M.2(SATA/NVMe) - conecta dispositivos M.2(SATA/NVMe)
+
+Tamanhos placa - mãe
+ATX 	- grande
+mATX 	- Médio(microATX)
+ITX 	- pequeno
+
+Memórias
+
+Voláteis(guarda informações somente quando está ligado) mais veloz
+Exemplo
+RAM(SIMM, DIMM, SDR, DDR, DDR2,DDR3,DDR4,DDR5)
+cache(L1,L2,L3)
+Video(GDDR3, GDDR4, GDDR5, GDDR6, HBM, HBM2)
+
+Não voláteis (Guarda informações mesmo se desligar)
+ROM(PROMs, EPROMs, EEPROMs,Memória flash)
+Armazenamento de dados(Pendrive,HD,SSD)
+
+BIOS - Basic input output System  - é um chip na placa-mãe responsável por ferificar todos conponentes de inicialização
+UEFI - Unifield Extensible Firmware Interface - É mais moderna tem mais recursos que BIOS normal.
+
+POST (power-on selt-test) 
+Verifica: processador, memória, placa de vídeo, USBs, teclados, Discos(HD,SSD,Pendrives), Relógio do sistema, se teve alteração.
+
+Virtualização CPU
+Intel VMX ou virtual tecnology
+AMD SVM ou vanderpool
+
+
+Armazenamento
+HD mecânico Gravação magnética
+Vantagem: Baixo custo por GB, longevidade
+Desvantagem: Velocidade inferior, fragil a impactos
+
+Conexões
+PATA - Parallel ATA
+SATA - Serial ATA
+
+Versões de SATA
+Sata1 conhecido como SATA 1.5Gb/s
+Sata2 conhecido como SATA 3Gb/s
+Sata3 conhecido como SATA 6Gb/s
+
+Midias óticas
+CD - Compact Disc
+Capacidade 700MB
+Principal uso - Música
+DVD - Digital Vídeo Disc
+Capacidade 4,7GB
+Principal uso - Filmes
+Blu-Ray
+Capacidade 25GB
+Principal uso Filmes/Jogos
+
+Flash
+Pendives e cartões de memória
+Utilizam memória Flash
+Normal classe 2,4,6 velocidades de no máximo 12,5MB/s
+High speed até 25MB/s
+UHS-1 entre 50 e 104MB/s
+UHS-2 entre 156 e 312MB/s
+
+SSD - Solid State Drive
+Vantagem : Velocidade superior ao HD mecânico
+
+SSD SATA 2,5 
+Formato para notebook conexão SATA3 valocidade de trasmissão em torno de 500MB/s(sequencial)
+
+SSD M.2 SATA
+Velocidade igual ao SSD SATA 2,5 
+Vantagem: conecta direto na placa mãe e não precisa de fonte nem cabo SATA
+
+SSD M.2 NVME (Non-Volatile Express)
+Gen5 Velocidades até 16000MB/s
+Gen4 Velocidades até 8000MB/s
+Gen3 Velocidades até 4000MB/s
+
+Padrões de conector
+
+M Key - NVME (chanfro em um lado só)
+B + M Key - SATA (chanfro em 2 lados)
+
+Tamanhos M.2
+2280 = 22mm x 80mm
+2260 = 22mm x 60mm
+2242 = 22mm x 42mm
+2230 = 22mm x 30mm
+
+Fontes
+Componente que converte corrente altenada para contínua
+
+Padrões
+ATX - normal
+SFX - medio
+TFX - Pequeno
+
+Tipos
+Não modular - Cabos soldados
+Semi modular - Alguns cabos soldados e outros conectáveis
+Full modular - Nenhum cabo é soldado todos são conectáveis
+
+Qual fonte eu preciso?
+Verificar 
+Consumo CPU, GPU, Quantidade de memória, quantidade de Discos
+
+Calculadora de fonte
+OuterVision Power Supply Calculator
+
+Certificações de Fonte
+80 plus White    - 80% eficiência
+80 plus bronze   - 82% eficiência
+80 plus silver   - 85% eficiência
+80 plus gold     - 87% eficiência
+80 plus platinum - 89% eficiência
+80 plus titanium - 90% eficiência
+
+Fonte sem PFC 50% a 65%(eficiência) e perda de 35% a 50%
+Fonte com PFC Ativo 80% a 99%(eficiência) e perda de 1% a 20%
+
+exemplo 1000W com 80plus Gold = 100% vai gerar pelo menos 870W para alimentar o PC 
+
+Sem PFC quando tem chave seletora 110/220
+Com PFC não tem chave seletora 110/220
+
+
+Placa onboard/offboard
+
+Placa onboard: são as placas que estão integradas à placa mãe
+
+Offboard: não estão integradas à placa mãe
+vantagens
+Maior desempenho, mais recursos, Substuição de componentes com defeito
+
+GPU - Graphical Processing Unit - Unidade de processamento Gráfico
+
+intel	 - Linha ARC
+AMD	 - Linha RX
+Nvidia	 - Linha RTX
+
+Placa de som
+
+Vantagens
+Maior qualidade de audio, maior potência, geralmente mais saidas 5.1 ou 7.1
+
+outras placas
+placa de rede
+Captura de vídeo
+Adaptadores NVME
+Adaptadores SATA
+Processadores de IA ou Mineração
+
+Gabinete:É a case que protege e organiza os componentes internos do seu PC(Personal Computer)
+
+Tamanhos
+Full Tower(Placas até E-ATX ou XL-ATX)
+Mid Tower(Até ATX)
+Mini Tower(até mATX ou ITX)
+Casemods (Gabinetes Curtomizados)
+
+Verificar quando for comprar o gabinete
+Tamanho da placa mãe, Altura maxima do cooler, tamanho máximo da GPU, tamanho da fonte, qualidade das ventoinhas, airflow(Fluxo de ar) e estética.
+
+
+Instalação de OS(Sistema operacional)
+
+Criando um pendrive de boot
+Mínimo de 8GB
+Boa qualidade
+
+No curso usaremos Ventoy
+
+Baixa o ventoy
+baixa a ISO do windows 10
+baixa ISO do Ubuntu(Verções LTS tem suporte por mais tempo)
+baixa ISO do proxmox Virtual Environment
+
+
+Outros programas
+Rufus
+LinuxLive USB Creator
+YUMI - Multboot USB Creator
+GNOME Mult-writer
+
+Virtualização
+
+Tipo 1(Bare Metal) - 
+A virtualização simula o hardware com o Hypervisor, podendo assim distribuir diferentes recursos  para as máquinas virtuais
+
+1/Hardware 2/Hypervisor 3/Maquina Virtual(vm)
+
+exemplos Hypervisor: Proxmox,Hyper-v,KVM,ESXI
+
+Vantagens :Menor consumo de energia, Menor Gastos com hardware, menor espaços em datacenters
+
+Tipo 2  
+1/hardware 2/S.O. 3/Hypervisor 4/maquina virtual(VM)
+Tem perda de desempenho em relação ao tipo 1
+Vantagem: Pode rodas aplicativos junto com Hypervisor, Praticidade, teste de Sistemas diferentes
+Exemplos: Virtualbox, VMware player, QEMU
+
+Container - Virtualiza Sistema Operacional
+1/hardware 2/S.O. 3/Sistema Container 4/aplicativos
+
+Hypervisor - Virtualiza hardware
+Container - Virtualiza Sistema operacional
+
+
+
+
+=======
 Velocidade
 
 Internet 
@@ -65,3 +321,4 @@ Binario para decimal
 
 Decimal para binário
 Dividindo o numero por 2 e usando os restos para formar os números(pegar os restos de trás pra frente)
+>>>>>>> 6000c4fc0447d93aefae9f689779e429297bc90f
