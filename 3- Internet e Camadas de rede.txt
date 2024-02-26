@@ -1,0 +1,244 @@
+Computação
+
+1945 - ENIAC - Eletronic Numeric Integrator And Computer
+1945 à 1955 Computadores não tinham SO, funcionavam com cartões perfurados
+
+1955 à 1965 Surge segunda Geração de computadores Cada um tinha sistema próprio
+
+1969 Foi lançado Unix
+
+Década da 70 Unix é ditribuido Gratuitamente
+
+windows lançado em 1993
+
+
+História da internet
+
+Hoje usamos internet para:
+Música, vídeos, jogos, nnuvem e etc...
+
+Mas o propósito inicial não era esse.....
+
+1947 - Guerra fria(Motivo Real da iniciativa)
+
+DARPA(Defence Advanced Research Projects Agency)
+iniciou 1960 por agencias financiadas pelo departamento de defesa do EUA em ambiente Militar
+1961 -Comutação de dados
+1962 - Conceito de internet
+1969 - ARPAnet (4 Nós)
+29/10/1969 - Primeira tranmissão
+1970 - ARPAnet consolidada
+1971 - Primeiro email
+1974 - TCP/IP
+A partir de 1980 foi para o resto do mundo surgiu World Wide Web(WWW)
+1985 -Internet global
+1989 - World Wide Web(WWW) criador Tim Berners-Lee 
+1989 - RNP (Rede nacional de Pesquisas)
+1990 Popularização e surgimento de navegadores web
+1995 Primeira versão de HTTP
+Década de 80 internet chega no Brasil
+Década de 90 Computadores para civis
+1997 - Lançamento do google
+
+
+Tipos de Conexão
+
+Dial Modem, xDSL, Cabo, PCL, Fibra óptica, Rádio, Satélite
+
+Modem(Discada)	 - 56kbit/s
+Ethernet 	 - 10Mbit/s
+Wireless 802.11g - 54Mbit/s
+Fast Ethernet	 - 100Mbit/s
+Giga Ethernet	 - 1000Mbit/s
+
+
+xDSL
+tipos - Dividido em 3 partes (Voz, Upstream, Downstream)
+DMT - Menor ruído e melhor desempenho
+CAP - maior ruido e menor desempenho
+
+variações: ADSL2, ADSL2+, HDSL, SDSL, SHDSL,VDSL2
+
+Cabos Utilizados
+Cabo coaxial
+Vantagem: baixa interferência, pode ser utilizados em longas distâncias
+Desvantagens: Baixa velocidade.(max10Mbit/s)
+
+
+PLC(Power Line Communication) pelo cabo de energia
+
+Internet para modem do modem para homeplug/ perto do pc liga homeplug na tomada e cado de dados no homeplug/pc
+
+Desvantagens no Brasil: Tecnologia está só na europa, Equipamentos Homeplug Caros, padrões de tomadas
+
+
+Fibra óptica
+Vantagens: Velocidade, Estabilidade, Confiabilidade, Alta qualidade
+
+Dificuldades: Instalação
+
+Sem fio
+Radio
+Vantagens: Bom custo benefício, Maior alcance da rede
+Desvantagens: estabilidade do sinal, super sensível ao tempo, Custo alto para a empresa
+
+Satélite (Necessário equipamentos caros)
+
+Topologias
+LAN - Rede Local (Rede doméstica ou Rede empresarial)
+para construir devemos verificar:
+quantidades de micros, quantidades de switch, distâncias entre os micros, quantidade de notebook, definir acesso sem fio, ligar switch em outros
+
+WAN - Rede de Área Ampla
+Rede de longa distância
+empresas utilizam VPN(Virtual Private Network)
+escritórios compartilhando recursos mesmo não estando no mesmo pais
+
+MAN - Metropolitan Area network
+Raio 5KM a 50KM
+normalmente ligada por fibra(alugada ou própria)
+grande largura de banda
+Desvantagem: alto curto
+
+CAN - Campus area network
+mesma idéia da MAN Mais barato, gerenciamento centralizado, menor que MAN
+
+SAN - Storage area Network(Rede de armazenamento de alta velocidade)
+Normalmente conectada por fibra
+Melhor disponibilidade, melhora de desempenho, flexibilidade, disponibilidade, escalabilidade
+
+PAN - Personal area network (Curto alcance)
+Cabo - USB, Firewire
+Sem fio - Bluetooth,wi-fi,IRDA, Zigbee
+
+BAN - Body area network
+utilização - militar, civil
+Desvantagens - (qualidade baixa) Dados , sensor, segurança, alto custo
+
+WLAN - Wirelless Local Area Network
+Conexão sem fio local, um cabo vem com internet até o roteador que repassa pelo ar.
+
+WMAN - Wirelless Metropolitan Area Network
+Necessário AP (access point)
+
+WPAN - Wireless Personal Area Network
+Equipamentos wi-fi, bluetooth, zigbee
+
+WWAM - Wirelless Wide Area Network
+Redes dos celulares
+
+Topologia de rede
+
+Point to point	- ponto a ponto
+
+2 computadores conectados  por uma via, cabo ou sem fio
+
+BUS		- barramento
+( Cabo no inicio até o fim com msm cabo)
+se um dos computadores perder conexão, todos os seguintes também perdem conexão
+
+Ring		-  Formato anel
+Nessesário 2 placas de rede para cada computador(caro)
+
+Star		- Formato estrela
+Dispositivo principal que distribui para os outros(se o central cair cai tudo)
+
+
+Tree		- Formato Arvore
+Varias de estrelas ligadas a outras
+
+Mesh		- Formato Malha
+quase inume a falha
+todos computadores teriam que ter varias placas de redes, mesma quantidade de computadores
+
+
+Hybrid		- Formato Hibrido
+Junção de varias topologias
+
+
+Intranet/Extranet 
+Internet
+Uma rede mundial de computadores 
+
+Intranet
+Uma rede privada de uma organização, rede restrita.
+
+Extranet
+Uma rede privada de uma organização, rede restrita porém pode acessar fora do local do trabalho através de logins, senhas e meios de acesso por criptografia. 
+
+MFA - Multiplo fator de altenticação
+
+Ativos e passivos de Rede
+
+Ativos 
+Hubs, switches, Roteadores, Placa de Rede, Firewall
+
+Hub - Quando um micro manda informação todos recebem(Broadcast)
+ativo - amplificam sinal recebido
+passivo - não amplifica
+
+Switch - Recebe uma informação de um micro e manda para o somente para o destinatário atravéz do MAC address
+normalmente trabalha na camada 2 do modelo OSI, mas exitem de camada 3.
+
+gerenciáveis 	 - Modelo que dão opções de regras de acesso e comfigurações(vlan)
+não gerenciáveis - Modelo simples sem regras de acesso
+
+Passivos
+Conectores rj45, réguas de alimentação, patch panel
+
+
+Roteadores - trabalha com IP, Serve para encaminhar dados entre redes e trabalha na camada 3 do modelo OSI
+
+Placas de Rede  - conecta o computador em outros computadores através da rede
+
+Firewall 	- termo que faz separação de rede interna e externa (Pode ser físico ou software)
+tipos
+Filtragem de pacotes - Testa os pacotes de acordo com as regras dos ADMs
+Os que não atendem são descartados.
+filtragem estática(definições de regras manuais)
+dinamico (Configurações de tempo de serviço) 
+sem estado (mais antigo, protege de malware, trafegos não específico de aplicativos)
+estável filtro baseado em extenções 
+
+Firewall Aplicação   - desemvolvidos para verificar aplicativos WAF
+Detectar ataques para http/https, escalável
+tipos
+aplicação de rede, aplicação de host, aplicação na nuvem 
+
+Inspeção de estado   - Avalia o que é padrão o oque está acontecendo
+
+IDS - Sistema de Detecção de Intrusão
+Sistema que monitora tráfego de rede e alerta em casos de ameaças
+tipos
+HIDS - baseado em host, é instalado em cada máquina
+NIDS - é na rede monitora a rede toda
+
+IPS - Sistema de prevenção de Intrusão
+Sistema que bloqueia o trafego malicioso em resposta à ameaça
+HIPS - Baseado em host , é instalado em cada máquina
+NIPS - é na rede e monitora a rede toda.
+
+Conectividade
+Comunicação Analógica e Digital
+
+analógico - envio de ondas magnéticas (Amplitude Modulada) AM/FM, comunicação com dispositivos de mesmo tipo, trafego apenas com voz.
+
+Digital - Dobro da capacidade, pode ser criptografado, transmissão mais limpa, trafego mais de somente voz
+
+modulador - canal - demodulador
+
+Camada física
+Half/ full duplex
+
+tranmissão de dados
+Emissor - Equipamento que esta originando a msg
+mensagem - dados a serem enviados
+Canal -  meio fisico
+protocolo - regra para que comunicação seja realizada entre emissor e 
+receptor - dispositivo que está recebendo a msg
+
+Serial - 
+
+
+
+
