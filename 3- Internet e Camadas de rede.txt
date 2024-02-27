@@ -230,15 +230,79 @@ modulador - canal - demodulador
 Camada física
 Half/ full duplex
 
-tranmissão de dados
+Tranmissão de dados
 Emissor - Equipamento que esta originando a msg
 mensagem - dados a serem enviados
 Canal -  meio fisico
 protocolo - regra para que comunicação seja realizada entre emissor e 
 receptor - dispositivo que está recebendo a msg
 
-Serial - 
+Serial - Baseado em conexão digital bit a bit
 
+sincrona	- baseado no tempo(ao vivo)
+assincrona 	- baseado na velocidade (Comunicação gravada)
 
+Paralela - Envio feito tudo ao mesmo tempo(podendo gerar interferência por ter mt cabos)
+
+Termos de operação de canais
+
+Simplex 	-  Fluxo único (somente uma direção)
+Half Duplex 	-  Fluxo duplo não simutâneo (Só ida ou só volta)
+Full Duplex 	-  Fluxo Simutâneo de informação (Ida e volta ao mesmo tempo)
+
+Conexão enlace ponto a ponto
+
+Usado normalmente usada uma antena para outra
+protocolo ponto a ponto (PPP)
+
+PAP - Usa uma autenticação simples (texto puro)
+CHAP - Usa senhas Criptografadas
+
+PPPOE, PPPOA - Conexões usadas por operadoras
+
+Verificador de erros
+VRC - Vertical Redundancy Checking - Verificação de paridade com digito verificador
+
+LRC - Longitudinal Redundancy Checking -Verificação de paridade 2D Divididoem uma tabela e inserido bit de paridade em um bloco
+
+CRC - Cyclic Redundancy Checking  - Criado número CRC envia esse valor junto aos dados, só aceita se tiver o CRC correto
+
+Checksum - baseado na soma de dados é considerado o metodo mais confiável que os anteriores(no receptor checksum = 0 dados aceitos)
+soma todos os dados binário e o checksum vira o inverso no emissor
+
+Conceitos 
+Bit, Byte
+portas lógicas e conversão binárias
+
+Bit	- 0 ou 1
+Byte 	- Conjunto de 8 bits
+
+Portas lógicas
+AND	- e
+OR	- ou
+NOT 	- negação(não)
+
+NAND - não(negação) AND 
+NOR -  não(negação) OR
+XOR -  OR exclusiva - Considera 1 quando as entradas são diferentes
+XNOR - NOR exclusivo - Considera 0 quando as entradas são diferentes
+
+Modelo OSI
+
+7 - Aplicação
+6 - Apresentação
+5 - Sessão
+4 - Tranporte
+3 - Redes
+2 - Enlace
+1 - Física
+
+Par Metálico
+
+Placa de rede, necessário IP(endereço lógico) e MAC(endereço físico)
+
+Tipos
+Coaxial 	- 
+Par trançado 	- 
 
 
