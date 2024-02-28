@@ -302,7 +302,50 @@ Par Metálico
 Placa de rede, necessário IP(endereço lógico) e MAC(endereço físico)
 
 Tipos
-Coaxial 	- 
-Par trançado 	- 
+Coaxial 	- Pode ser usado para tv a cabo e rede de tele comunicações
+imune a interferência eletromagnética
 
+Par trançado 	- Cabo utilizados em redes de computadores
+vantagens maior taxa de tranferência 
+baixo curto 
+flexível
+Desvantagem
 
+Categorias
+CAT1	serviços telefônicos
+CAT2	RDSI - 
+CAT3	Dados até 16Mhz (classe C)			10 MBPS
+CAT4	Dados até 20MHZ (Classe B)
+CAT5	Dados até 100MHZ(Classe D) extinto 		100MBPS
+CAT5E	Dados até 125MHZ 				1GBPS
+CAT6	Dados até 250MHZ(Classe E) MAX 55 METROS  	1GBPS
+CAT6A	Dados até 500MHZ DISTÂNCIA MAX 100METROS	1GBPS
+CAT7	Dados até 600MHZ(Classe F) 
+
+STP - BLINDADO
+UTP - NÃO BLINDADO
+
+T568A
+1 BRANCO/VERDE
+2 VERDE
+3 BRANCO/LARANJA
+4 AZUL
+5 BRANCO/AZUL
+6 LARANJA
+7 BRANCO/MARROM
+8 MARROM
+
+T568B
+1 BRANCO/LARANJA
+2 LARANJA
+3 BRANCO/VERDE
+4 AZUL
+5 BRANCO/AZUL
+6 VERDE
+7 BRANCO/MARROM
+8 MARROM
+
+CABO DIRETO DUAS PONTAS IGUAIS ligação de camadas diferentes(Modelo OSI)
+
+CABO CROSSOVER T568A/T568B OU INVERSO LIGAÇÃO DE MESMA CAMADA(Modelo OSI)
+EXEMPLO 2 SWITCHS
