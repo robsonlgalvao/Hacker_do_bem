@@ -349,3 +349,42 @@ CABO DIRETO DUAS PONTAS IGUAIS ligação de camadas diferentes(Modelo OSI)
 
 CABO CROSSOVER T568A/T568B OU INVERSO LIGAÇÃO DE MESMA CAMADA(Modelo OSI)
 EXEMPLO 2 SWITCHS
+
+
+Fibra Óptica
+
+Transfere luz
+
+Vantagens
+Alta Velocidade, imune a interverências eletromagnética, alta largura de banda
+
+Desvantagens
+Valor de instalação, frágil
+
+Utilização 
+Industrial e medicina
+
+Tipos
+
+Monomodo - Tem núcleo fino, permitindo um modo de luz(segue em um único caminho ou longo da fibra) baixa atenuações.
+ideal para longas distâncias e alata largura de banda. 
+Multimodo - tem o núcleo largo, varios modos de luz se propague em direções diferentes, distâncias curtas e medias mais econômicas.
+
+
+Manutenção
+
+Inspeção Visual, Limpeza, teste de qualidade, gestão de cabos, Proteção física.
+
+
+Fusão
+Preparação, alinhamento, fusão.
+
+ver fusão da fibra you tube loucos da telecon
+
+
+Rede Sem Fio
+Wi-fi		-
+
+Bluetooth	-
+
+Rede 3g,4g e 5g -
