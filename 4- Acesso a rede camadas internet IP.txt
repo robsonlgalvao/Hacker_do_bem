@@ -1,3 +1,32 @@
 Aula 1
 Camada de acesso
 
+camada de enlace
+
+Emissor
+Receptor
+Mensagem
+Canal de comunicação
+Código/protocolo
+
+Os protocolos determinam padrões de envio.(prof deu exemplo de envio de um pacote/carta nos correios)
+
+Modelo de comunicação em camadas(Modelo TCP/IP)
+
+4 - Aplicação		(RDP/HTTP/SSH/DNS/TFTP/SNMP) 
+3 - Transporte		(TCP/UDP)	
+2 - Internet		(OSPF/IPV4/IPV6) 
+1 - Acesso a rede	(Ethernet/ARP) 
+
+Modelo OSI
+
+7- Aplicação	-Dados
+6- Apresentação -Dados
+5- Sessão	-Dados
+4- Transporte	-Segmentos
+3- Rede		-Pacotes
+2- Enlace	-Quadros
+1- Física	-Bits
+
+
+
