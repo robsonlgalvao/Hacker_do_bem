@@ -52,16 +52,21 @@ Cuida da taxa  de tranferência, Largura da banda e latência
 
 2 - Camada de enlace - PDU = Quadros/frames (Switchs)
 Cuida da parte de interação,detecção e correção de erros de transmissão
-MAC address - Endereço exclusivo de um dispositivo de rede no mundo
+MAC address(Media Access Control Address) - Endereço exclusivo de um dispositivo de rede no mundo
 Os 3 primeiros identificadores são do Fabricante, os 3 últimos são do Dispositivo(exemplo: )
 https://macvendors.com/
 para ter informações de MAC
+Comando no switch para ver tabela de MACs - show mac address-table dynamic
 unicast - Comunicação de um para um
 broadcast - de um para todos
 
 3 - Camada de rede - PDU = Pacotes (Roteador)
 
-IP - 
+Protocolo ARP(address Resolution Protocol) - comando arp -a = exibir tabela ARP com ip e mac
+IP(internet Protocol) - Sistema de identificação numérica
+tipos
+IPV4 - (Internet prococol Version 4) - protocolo escrito em seguencia de digitos de 32 bitis composto por 4 números entre 0 e 255
+
 
 4 - Camada transporte - PDU = Segmentos (firewall)
 
