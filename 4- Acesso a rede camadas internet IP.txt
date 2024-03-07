@@ -33,7 +33,6 @@ IEEE/TIA/ITU
 
 cuida da parte fisica e enlace(MODELO OSI) /bits e quadro(MODELO TCP/IP)
 
-
 aplicação 	/Dados
 apresentação	/Dados
 Sessão		/Dados
@@ -53,17 +52,12 @@ Cuida da taxa  de tranferência, Largura da banda e latência
 
 2 - Camada de enlace - PDU = Quadros/frames (Switchs)
 Cuida da parte de interação,detecção e correção de erros de transmissão
-
 MAC address - Endereço exclusivo de um dispositivo de rede no mundo
-
-Os 3 primeiros identificadores são do Fabricante, os 3 últimos são do Dispositivo
-
+Os 3 primeiros identificadores são do Fabricante, os 3 últimos são do Dispositivo(exemplo: )
 https://macvendors.com/
 para ter informações de MAC
-
 unicast - Comunicação de um para um
 broadcast - de um para todos
-
 
 3 - Camada de rede - PDU = Pacotes (Roteador)
 
