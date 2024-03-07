@@ -29,4 +29,59 @@ Modelo OSI
 1- Física	-Bits
 
 
+IEEE/TIA/ITU
+
+cuida da parte fisica e enlace(MODELO OSI) /bits e quadro(MODELO TCP/IP)
+
+
+aplicação 	/Dados
+apresentação	/Dados
+Sessão		/Dados
+Transporte	/Portas
+Rede		/IP
+Enlace		/MAC
+Física		/BIN(bits) (Cabeamento)
+
+PDU - Protocol Data Unit(Unidade de  dados de protocolo) 
+
+Controle de enlace lógico - LLC(IEEE 802.2) meio lógico
+Controle de acesso ao meio - MAC(IEEE 802.3) meio fisico
+
+
+1- Camada física - PDU = bits (HUB)
+Cuida da taxa  de tranferência, Largura da banda e latência
+
+2 - Camada de enlace - PDU = Quadros/frames (Switchs)
+Cuida da parte de interação,detecção e correção de erros de transmissão
+
+MAC address - Endereço exclusivo de um dispositivo de rede no mundo
+
+Os 3 primeiros identificadores são do Fabricante, os 3 últimos são do Dispositivo
+
+https://macvendors.com/
+para ter informações de MAC
+
+unicast - Comunicação de um para um
+broadcast - de um para todos
+
+
+3 - Camada de rede - PDU = Pacotes (Roteador)
+
+IP - 
+
+4 - Camada transporte - PDU = Segmentos (firewall)
+
+Porta - 
+
+5 - Sessão - PDU = Dados (firewall)
+
+
+
+6 - Apresentação - PDU = Dados (firewall)
+
+
+
+7 - Aplicação - PDU = Dados (firewall)
+
+
 
