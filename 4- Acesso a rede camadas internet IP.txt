@@ -63,9 +63,27 @@ broadcast - de um para todos
 3 - Camada de rede - PDU = Pacotes (Roteador)
 
 Protocolo ARP(address Resolution Protocol) - comando arp -a = exibir tabela ARP com ip e mac
-IP(internet Protocol) - Sistema de identificação numérica
+IP(internet Protocol) - Sistema de identificação numérica(endereço lógico)
 tipos
 IPV4 - (Internet prococol Version 4) - protocolo escrito em seguencia de digitos de 32 bits composto por 4 números entre 0 e 255.
+
+Composto por 4 octetos separados por pontos
+Cada octeto é composto por 8bits
+Cada octeto varia emtre 0 a 255(decimal)
+
+Padronização - IETF (Internet engineering task force): descrevem fundamentos técnicos da internet, como tecnologias de endereçamento,roteamento e tranporte.
+RFCs - Documentos que contém especificações técnicas e novas organizacionais para a internet.
+
+RFCs famosas:
+RFC2460 - IPV6
+RFC2131 - DHCP
+RFC1945 - HTTP
+RFC1321 - MD5
+RFC4251 - SSH
+RFC1918 - IPV4
+
+IEEE - Instituto de engenheiros, eletrotécnicos e eletrônicos - Maior organização do mundo dedicada ao avanço da tecnologia em beneficio da humanidade.
+
 
 
 4 - Camada transporte - PDU = Segmentos (firewall)
