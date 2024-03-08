@@ -65,7 +65,7 @@ broadcast - de um para todos
 Protocolo ARP(address Resolution Protocol) - comando arp -a = exibir tabela ARP com ip e mac
 IP(internet Protocol) - Sistema de identificação numérica
 tipos
-IPV4 - (Internet prococol Version 4) - protocolo escrito em seguencia de digitos de 32 bitis composto por 4 números entre 0 e 255.
+IPV4 - (Internet prococol Version 4) - protocolo escrito em seguencia de digitos de 32 bits composto por 4 números entre 0 e 255.
 
 
 4 - Camada transporte - PDU = Segmentos (firewall)
