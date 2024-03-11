@@ -84,7 +84,7 @@ RFC1918 - IPV4
 
 IEEE - Instituto de engenheiros, eletrotécnicos e eletrônicos - Maior organização do mundo dedicada ao avanço da tecnologia em beneficio da humanidade.
 
-
+Iana - Internet Assigned Numbers Authority(Autoridade para atribuição de números da internet) - Coordenação global dos sistemas de endereçamento IP, usado para rotear o trafego da internet.
 
 4 - Camada transporte - PDU = Segmentos (firewall)
 
