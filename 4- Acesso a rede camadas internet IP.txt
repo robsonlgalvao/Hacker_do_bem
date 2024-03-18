@@ -101,4 +101,6 @@ Porta -
 7 - Aplicação - PDU = Dados (firewall)
 
 
+Subredes
+
 
