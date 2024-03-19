@@ -32,3 +32,4 @@ decimal	Binario	Hexadecimal
 
 2001:f0f0:dad0:cafe:0005:006:0007:0008
 
+Verificar trafego: Wireshark
