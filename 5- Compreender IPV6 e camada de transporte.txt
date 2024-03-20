@@ -90,6 +90,25 @@ Loopback -  Para auto teste ou acesso a um serviço localmente, Mesma função d
 
 ::1
 
-comandos
+Comandos
+
 show IPV6 interface giga 0/0
+cabo no console(Putty)
+	
+	show run - verificar se tem algo configurado.
+	conf t - entrar nas configuração
+	interface gigabitEthernet 0/0 (0/0 ou a porta que vc quer)
+	ipv6 address fe::1 link-local - configurando ipv6 para fe::1
+	no shutdown - fazer a porta subir(up)
+
+
+Configurando Global unicast address(IPV6 GUA)
+
+putty 
+duvidas no comando colocar ? no final
+ipv6 address 2001::1/64(parte de host)
+
+show running-config - aparece a configuração feita nas portas
+
+show ipv6 interface gigabitEthernet 0/0 - Mostra todas configurações da porta 0/0
 
