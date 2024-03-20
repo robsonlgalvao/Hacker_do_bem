@@ -112,3 +112,25 @@ show running-config - aparece a configuração feita nas portas
 
 show ipv6 interface gigabitEthernet 0/0 - Mostra todas configurações da porta 0/0
 
+
+Abreviação IPV6
+
+quando tem um grande número de 0 pode se omitir
+
+  1    2   3    4    5    6    7    8
+2001:0df8:00f2:0000:0000:0000:0000:0f11
+
+  1    2    3    8
+2001:0df8:00f2::0f11
+
+Outras abreviações
+
+ 1    2   3    4    5    6    7    8
+2001:0df8:00f2:0000:0000:0000:0000:0f11
+
+ 1    2   3 4 5 6 7  8
+2001:df8:f2:0:0:0:0:f11
+ 
+ 1    2   3 (4567)  8
+2001:df8:f2:	  :f11
+
