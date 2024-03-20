@@ -33,3 +33,63 @@ decimal	Binario	Hexadecimal
 2001:f0f0:dad0:cafe:0005:006:0007:0008
 
 Verificar trafego: Wireshark
+
+Cabeçalho 
+
+IPV4
+12 campos fixos - 20 a 60 bits de tamalho
+
+versão
+tamanho
+tipo de serviço
+Tamalho total
+Identificação
+Flag
+Deslocamento do flagmento
+Tempo de Vida(ttl)
+Protocolo
+Soma de verificação do cabecalho(Checksum)
+endereço de origem
+endereço de destino
+Opções e complemento.
+
+Ipv6 
+8 campos fixos 40 bytes de tamanho(Cabeçalhos de extensão não são processados por roteadores intermediários)
+
+Versão
+Classes de trafego
+Identificador de fluxo
+Tamanho de dados
+Proximo cabeçalho
+Limite de emcaminhamento
+Endereço de origem
+Endereço de destino
+
+Tipos de comunicação
+
+Unicast - É o tipo de comunicação feita de um para um, é um endereçamento para um pacote feito a um único destino.
+
+Anycast - Feita de uma interface para muitas outras da mesma região(mesmo endereço de rede)
+
+Multcast - É quando um dispositivo se comunica com alguns receptores. É o método de transmissão de pacote de dados para múltiplos utilizado pelo IPV6.
+
+Broadcast - Método de tranferência simultânea para Diversos receptores, é utilizado especificamente no IPV4
+
+
+Tipos de endereços IPV6
+
+Global unicast address - Semelhante ao IPV4 público
+
+2000::/3
+
+Unique Local address - Semelhante ao IPV4 privado
+
+FC00::/7
+
+Loopback -  Para auto teste ou acesso a um serviço localmente, Mesma função do IPV4 127.0.0.1
+
+::1
+
+comandos
+show IPV6 interface giga 0/0
+
