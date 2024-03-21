@@ -134,3 +134,28 @@ Outras abreviações
  1    2   3 (4567)  8
 2001:df8:f2:	  :f11
 
+
+Sub-rede IPV6
+
+2001	:0df8	   :00f2	:0000	:0000:0000:0000:0f11/64
+16bits 	 16 bits   16 bits	16bits		64bits
+		64bits
+
+Quando tem /64 no final e referente aos primeiros 64 bits para identificar a rede e sobram 64 para endereçar dispositivos.
+
+e se fossem 32bits para identificar rede? vamos ver?
+
+2001	:0df8	:00f2:0000:0000:0000:0000:0f11/32
+16bits	16bits			96bits
+
+
+Qual primeiro e o outimo endereço para
+2001:f0f0::/32
+
+vamos lá
+primeiro - 2001:f0f0:0000:0000:0000:00000:0000:0001 ou 2001:f0f0::1
+último	 - 2001:f0f0:ffff:ffff:ffff:ffff:ffff:ffff
+
+
+
+
