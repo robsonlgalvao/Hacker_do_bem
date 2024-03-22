@@ -156,6 +156,44 @@ vamos lá
 primeiro - 2001:f0f0:0000:0000:0000:00000:0000:0001 ou 2001:f0f0::1
 último	 - 2001:f0f0:ffff:ffff:ffff:ffff:ffff:ffff
 
+Sub-rede IPV6
+
+2001:f0f0:dad0:cafe:	0000:0000:0000:0000/64
+64bits porção rede	64bits para dispositivos
+
+
+
+2001:f0f0:dad0:cafe:0000:0000:0000:0001/65 
+
+sub-rede 1 - 2001:f0f0:dad0:cafe:(0000 até 7fff):0000:0000:0001/65
+sub rede 2 - 2001:f0f0:dad0:cafe:(8000 até ffff):0000:0000:0001/65
+
+
+e esse 2001:f0f0:dad0:cafe:0000:0000:0000:0001/66 ?
+			   |
+			 '00'00
+			  || ||
+			  84 21 cada bits as redes avancam em 8,4,2 ou 1
+
+então no nosso exemplo
+
+Subrede 1 2001:f0f0:dad0:cafe:(0000 até 3fff):0000:0000:0001/66
+Subrede 2 2001:f0f0:dad0:cafe:(4000 até 7fff):0000:0000:0001/66
+Subrede 3 2001:f0f0:dad0:cafe:(8000 até bfff):0000:0000:0001/66
+Subrede 4 2001:f0f0:dad0:cafe:(c000 até ffff):0000:0000:0001/66
+
+Agora 
+2001:f0f0:dad0:cafe:0000:0000:0000:0001/67
+
+Subrede 1 2001:f0f0:dad0:cafe:(0000 até 1fff):0000:0000:0001/67
+Subrede 2 2001:f0f0:dad0:cafe:(2000 até 3fff):0000:0000:0001/67
+Subrede 3 2001:f0f0:dad0:cafe:(4000 até 5fff):0000:0000:0001/67
+Subrede 4 2001:f0f0:dad0:cafe:(6000 até 7fff):0000:0000:0001/67
+Subrede 5 2001:f0f0:dad0:cafe:(8000 até 9fff):0000:0000:0001/67
+Subrede 6 2001:f0f0:dad0:cafe:(a000 até bfff):0000:0000:0001/67
+Subrede 7 2001:f0f0:dad0:cafe:(c000 até dfff):0000:0000:0001/67
+Subrede 8 2001:f0f0:dad0:cafe:(e000 até ffff):0000:0000:0001/67
+
 
 
 
