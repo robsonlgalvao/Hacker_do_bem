@@ -195,5 +195,64 @@ Subrede 7 2001:f0f0:dad0:cafe:(c000 até dfff):0000:0000:0001/67
 Subrede 8 2001:f0f0:dad0:cafe:(e000 até ffff):0000:0000:0001/67
 
 
+Camada 4: transporte
+Segmentação dos dados, multiplexação e remonta segmentos no destino 
 
+Comando 
+netstat -na
+Mostra as conexões ativas
+
+Funções da camada de tranporte
+Mantém e monitora várias camadas entre aplicações.
+Identifica aplicações por meio de portas.
+segmenta dados das camadas superiores.
+
+portas
+
+saindo ateatória(57358)  -> web https(443), http(80),  email(110), vídeo conferência(3478ou3481)
+
+C:\Windows\system32\drives\etc\services
+
+ftp	-20/21
+ssh	-22
+telnet	-23
+smtp	-25
+dns	-53
+tftp	-69
+http	-80
+https	-443
+sntp	-161
+
+Total de portas TCP:65535
+Total de portas UDP:65535
+Até a porta 1024: serviços mais comuns
+de 1025 a 65535: Conhecidas como portas altas
+
+Principais protocolos TCP e UDP
+
+TCP - (Transport Control Protocol)
+
+Característica - Trabalha com segmentos
+
+Confiável 
+Orientado a conexão
+Confirma os dados recebidos
+Reenvia dados perdidos
+Reorganiza os dados segmentados
+Controle de fluxo
+
+Aplicações
+RDP
+HTTP
+SSH
+
+Multiplexação
+Segmentar(picota) dados para envio
+Remontar os dados segmentados recebidos na ordem correta
+
+Conexão em 3 vias(Three-way Handshake)
+
+programa wireshark verifica analize na rede
+
+SYN -  Pedido de sincronismo
 
