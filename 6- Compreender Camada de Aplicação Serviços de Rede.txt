@@ -1,2 +1,28 @@
-Email
+Camada aplicação
 
+Email
+1971
+Ray Tomlinson(projeto ARPANET)
+
+1978 primeiro envio em massa por Gary thuerk
+
+Serviços de e-mail são oferecidos pelo provedor
+
+E-mail armazena, encaminha, envia e recupera mensagens eletrônicas em uma rede.
+
+E-mail suporta 3 protocoloas separados SMTP, POP3 e IMAP
+
+SMTP é o serviço de envio
+POP3 e IMAP - recuperam/recebem as msgs
+
+SMPT - simple mail tranfer protocol.
+Exige:
+cabeçalho e corpo de mensagem
+
+SMTP usa porta 25
+
+POP3 - Transfere os e-mails de um servidor para o cliente. A mensagem é excluída do servidor.
+porta 110 sem criptografia
+porta 995 com criptografia
+
+IMAP - Faz o download dos e-mails de um servidor para o cliente. Uma cópia da mensagem permanece no servidor.
