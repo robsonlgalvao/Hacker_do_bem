@@ -256,3 +256,21 @@ programa wireshark verifica analize na rede
 
 SYN -  Pedido de sincronismo
 
+Janelamento
+
+ataque SYN TCP
+sobrecarregar servidor de requisições SYN para o usuário ficar fora ou servidor cair
+
+Algumas aplicações que trabalham com TCP e UDP
+porta TCP porta-443= chat de texto
+porta UDP porta-45000-60000= chat de voz
+exemplo: discord
+
+Controle de fluxo
+manda pedidos de syn e espera retorno na ordem
+caso servidor mande um ack segunte o tcp vai entender que o anterior foi entregue
+exemplo: mandou 0, sevidor respondeu ack0, mandou 1,2,3 servidor respondeu com ack3 o tcp entendo que o 1 e 2 foram recebidos e continua na ordem, quando servidor não recebeu ele manda um nack
+
+
+
+
