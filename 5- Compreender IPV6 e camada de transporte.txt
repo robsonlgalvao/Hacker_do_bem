@@ -272,5 +272,31 @@ caso servidor mande um ack segunte o tcp vai entender que o anterior foi entregu
 exemplo: mandou 0, sevidor respondeu ack0, mandou 1,2,3 servidor respondeu com ack3 o tcp entendo que o 1 e 2 foram recebidos e continua na ordem, quando servidor não recebeu ele manda um nack
 
 
+protocolo UDP - (User datagram protocol)
+
+caracteristicas
+prioriza velocidade
+Não confirma se vc recebeu
+
+TCP	              vs	 		UDP
+
+lento					rápido
+garante entrega				não garante
+retransmissão de dados			Dados perdidos não são reenviados
+
+		utilizados em:
+Serviços web				Tranmissões ao vivo
+e-mail					Jogos online
+FTP					Video conferência
+
+		Cabeçalho:
+
+Variável 20 a 80 byte/12campos		Variável fixo:8 bytes/4campos
+
+		Portas:
+
+65536					65536
+
+
 
 
