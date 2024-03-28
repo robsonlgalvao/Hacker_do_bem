@@ -26,3 +26,24 @@ porta 110 sem criptografia
 porta 995 com criptografia
 
 IMAP - Faz o download dos e-mails de um servidor para o cliente. Uma cópia da mensagem permanece no servidor.
+Ele só baixa mensagem se vc clicar nela e não baixa anexos automaticamente.
+
+
+Camada de aplicação
+Estrutura de Web
+
+1980 Tim Bernes-lee desenvolveu World Wide Web(WWW)
+
+1990 criação http, html, www, primeiro servidor http CERN
+
+Etapas estrutura WEB
+Navegador interpreta em 3 partes da URL
+1 http		(protocolo)
+2 www.abcde.com	(nome do servidor)
+3 index.html	(Nome do arquivo Solicitado)
+
+
+
+
+
+
