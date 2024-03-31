@@ -42,6 +42,26 @@ Navegador interpreta em 3 partes da URL
 2 www.abcde.com	(nome do servidor)
 3 index.html	(Nome do arquivo Solicitado)
 
+Navegador verifica o servidor DNS para converter www.... para ip válido
+
+Em reposta o servidor envia um código HTML.
+
+O navegador decifra codigo HTML e formata a página.
+
+HTTP(Hypertext transfer Protocol) - porta 80 ou 8080
+
+GET  - Solicitação de dados feita pelo cliente 
+POST - Carrega arquivos de dados de um servidor na web,como dados de formulário.
+PUT  - Carrega recursos ou conteúdos, como imagem por exemplo
+
+HTTPS (Hypertext transfer Protocol Segure) - Portas 443 ou 8443
+Utiliza criptografia com SSL
+
+
+DNS (Domain Name System)
+
+
+
 
 
 
