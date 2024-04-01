@@ -58,12 +58,38 @@ HTTPS (Hypertext transfer Protocol Segure) - Portas 443 ou 8443
 Utiliza criptografia com SSL
 
 
-DNS (Domain Name System)
+DNS (Domain Name System) tranforma hostname(ex:www.google.com) em ip(ex:200.0.0.8)
+
+Criado 1983 por um americano Paul Mockapetris para facilitar escalabilidade da internet.
+
+São 4 servidores DNS
+Recursor de DNS		tipo um bibliotecário
+Servidor Raiz		primeira etapa de tradução de hostname para ip
+NameServer TLD		tipo uma estante de livro (com )
+Servidor de DNS Autoritativo	 última etapa retornando o ip caso exista
+
+Cache (armazenar dados para aumentar velocidade pois"já sabe o endereço")
+Armazenamento de dados
+Aumento de desempenho
+Confiabilidade
+Redução de consumo de largura de banda
 
 
+DHCP - Protocolo de configuração Dinâmica de hosts(Dynamic Host Configuration protocol)
+Substituiu o antigo BOOTP
+Criado pela IETF
+Atribuição dinâmica de endereços de IP
+Configuração de máscara dew sub-rede
+Gerenciamento da alocação de endereços IP
 
+porta 67(DHCP discovery) *Pergunta*
+porta 68(DHCP offer) 	*Resposta*
 
+DHCP discovery	- micro requisitando endereçamento ip
+DHCP offer	- Servidor oferecendo ip, mascara subrede, gateway, tempo de expiração e DNS
 
+Pool - endereço ip no servidor para micro que 'pede'
 
+No servidor DHCP fica armazenado em banco de dados o ip que foi designado para o dispositivo até a expiração.
 
 
