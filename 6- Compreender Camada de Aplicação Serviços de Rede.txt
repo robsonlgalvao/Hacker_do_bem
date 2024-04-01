@@ -93,3 +93,57 @@ Pool - endereço ip no servidor para micro que 'pede'
 No servidor DHCP fica armazenado em banco de dados o ip que foi designado para o dispositivo até a expiração.
 
 
+Acessos Remotos (Decada de 80)
+pc anywhere (pioneiro conhecido)
+
+Que é?
+É capacidade de um micro acessar outro micro.
+
+É seguro?
+Depende do software
+
+Necessário 3 elementos
+hardware
+software
+Connexão de rede/internet
+
+Tipos de acesso remoto
+Conexão de área de trabalho remota	- Conexão de trabalho remoto é capacidade de trabalhar remotamente em um dispositivo, por meio de outro dipositiso ou software.
+Remote Desktop protocol(RDP)
+porta mais usada 3389
+Não criptografada
+
+Conexão via Virtual Private Network(VPN)- VPN significa Rede privada virtual e é uma tecnologia que permite a criação de uma conexão segura e criptografada pela internet ou outra rede pública.
+
+Remote Desktop protocol(RDP)
+porta mais usada 3389
+Não criptografada(não indicado para multiplas conexões)
+Microsoft terminal services(TS)
+
+Ferramentas acesso Remoto
+FTP
+RCP
+Telnet
+Rlogin
+RSH
+SSH
+
+Telnet (Teletype Network)
+porta 23
+protocolo de tranferência de dados não seguro
+
+SSH - Segure Socket Shell- linha de comando
+porta 22
+Tem criptocrafia de chaves assimétricas.
+
+Aplicativos de acesso remotos mais utilizados
+Anydesk
+KhelpDesk
+LogMeln Pro
+TeamViewer
+Microsoft Remote Desktop
+Real VNC
+
+
+SMB/CIFS - protocolos é amplamente utilizado para compartilhar arquivos e pastas em redes Windows
+
