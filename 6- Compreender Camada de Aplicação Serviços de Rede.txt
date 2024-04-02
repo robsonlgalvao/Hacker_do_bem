@@ -145,5 +145,32 @@ Microsoft Remote Desktop
 Real VNC
 
 
+Transferência de Arquivos
+
+O SMB (Server Message Block) e o CIFS (Common Internet File System) são protocolos de rede usados para facilitar o compartilhamento de arquivos e recursos entre dispositivos em redes locais. 
 SMB/CIFS - protocolos é amplamente utilizado para compartilhar arquivos e pastas em redes Windows
+
+Torrent é um protocolo de comunicação utilizado para compartilhar arquivos, e o termo é frequentemente associado aos arquivos compartilhados por meio desse protocolo, que são chamados de "torrents". 
+
+O File Transfer Protocol (FTP) é um protocolo para transferência de arquivos pela internet e foi desenvolvido em meados dos anos 1970. Ele opera em um modelo cliente-servidor, no qual um cliente de FTP se comunica com um servidor de FTP para transferir arquivos.  
+
+Servidores e NAS
+Servidor é um micro(Normalmente super computadores) que oferece serviços para outros micros.
+
+NAS - Network Attached Storage(Servidor de dados em rede)
+Exclusivo para guardar e compartilhar arquivos atravez da rede
+backups de dados, executa aplicações, pode ser virtualizado, funciona como servidor de nuvem.
+Não foram criados inicialmente para tarefas computacionais.
+Pode suportar milhares de computadores.
+
+SMB(Server Message Block)
+porta 445 era 139
+
+Variações
+SMBv1
+CIFS
+SMBv2
+SMBv3
+SMBv3.02
+SMBv3.1.1
 
