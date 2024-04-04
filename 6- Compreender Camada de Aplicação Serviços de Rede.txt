@@ -174,3 +174,13 @@ SMBv3
 SMBv3.02
 SMBv3.1.1
 
+
+Controle de Usuário 
+protocolo LDAP Centralização de autenticação de usuário de uma rede
+Usado principalmente ni Active Directory da Microsoft
+
+Permite organizações armazenem, endederecem, gerenciem e protejam informações 
+serve como um local central para armazenar informações de autenticação, como nome de usuário, privilégio e senhas.
+
+
+
