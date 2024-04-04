@@ -205,3 +205,12 @@ Eram de baixo curso
 conectavam poucos computadores
 Não tinha escalabilidade
 
+protocolo LDAP Centralização de autenticação de usuário de uma rede
+Usado principalmente ni Active Directory da Microsoft
+
+Permite organizações armazenem, endederecem, gerenciem e protejam informações 
+serve como um local central para armazenar informações de autenticação, como nome de usuário, privilégio e senhas.
+
+
+
+
