@@ -174,3 +174,34 @@ SMBv3
 SMBv3.02
 SMBv3.1.1
 
+Torrent É uma extensão de arquivos, no entanto é apenar compativél com protocolo Bittorrent
+
+No modelo p2p totod os computadores são servidores, modelos descentralizado de compartilhamento de arquivos
+
+seed - todo usuário que está compartilhando.
+peer - Todo usuário que está baixando.
+
+no Bit torent você pode ser SEED e PEER ao mesmo tempo.
+
+Quanto mais seeds um download tiver , mais rápido e estável será o download do arquivo.
+
+FTP - File Tranfer Protocol
+porta 21
+servidores públicos e privados
+
+FTP tradicional é necessário credenciais
+FTP anônimo não é necessário
+
+canais de comunicação
+canal de comando e canal de dados
+
+Modos de conexões
+ativo - Servidor utilizar o protocolo 
+passivo - utilizado comando e dados (firewal não atrapalha)
+
+Controle de usuários
+
+Eram de baixo curso
+conectavam poucos computadores
+Não tinha escalabilidade
+
