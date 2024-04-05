@@ -211,6 +211,25 @@ Usado principalmente ni Active Directory da Microsoft
 Permite organizações armazenem, endederecem, gerenciem e protejam informações 
 serve como um local central para armazenar informações de autenticação, como nome de usuário, privilégio e senhas.
 
+Active directory
+Serviço de diretório para gerenciamento de dominios, usuários e recursos distribuidos.
+
+RADIUS - (Remote Authentication Dial in Service)
+
+Criado Livingston Entrises em 1991
+Protocolo AAA (Autenticação autirização e contabilização(Accounting))
+usa o UDP
+porta era 1645 depois de atualizado é 1812.
 
 
+SNMP (Simple Network Management Protocol) é um protocolo do conjunto TCP/IP que permite monitorar e controlar os dispositivos da rede. Dessa forma, ele auxilia na identificação de possíveis falhas dentro dos equipamentos da rede.
 
+Usado em:
+Servidores
+Storages
+Roteadores
+Swithes
+
+Surgimento de protocolos como SNMP,NTP e SYSLOG
+
+SNMP - Permite monitorar e controlar os dispositivos da rede
