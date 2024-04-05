@@ -1,0 +1,39 @@
+Versões
+
+1970-1980
+O início
+A Microsoft foi fundada por Bill Gates e Paul Allen em 1975. Inicialmente, a empresa focou seus esforços no desenvolvimento de uma linguagem de programação chamada BASIC para o Altair 8800, um dos primeiros computadores pessoais. 
+
+1981
+MS-DOS
+Em 1981, a Microsoft comprou os direitos do sistema operacional QDOS (Quick and Dirty Operating System) de uma pequena empresa chamada Seattle Computer Products. Eles o renomearam para MS-DOS (Microsoft Disk Operating System) e o licenciaram para a IBM, que o usou no IBM PC.
+
+1985
+Windows 1.0
+A primeira versão do Windows foi lançada em 1985. No entanto, o Windows 1.0 era mais uma interface gráfica para o MS-DOS do que um sistema operacional completo. Ele introduziu recursos como janelas sobrepostas e ícones, mas não foi amplamente adotado.
+
+1990
+Windows 3.0
+O Windows 3.0, lançado em 1990 e trouxe melhorias significativas na interface do usuário e na capacidade de multitarefa.  
+
+1995
+Windows 95
+O Windows 95 foi um lançamento crucial para a Microsoft. Ele introduziu a barra de tarefas, o botão "Iniciar" e o suporte a dispositivos Plug and Play. Esse sistema operacional teve um enorme impacto no mercado e definiu a experiência de computação para muitos usuários durante anos.
+
+2001
+Windows XP
+O Windows XP foi um dos sistemas operacionais mais populares da história da Microsoft. Sua estabilidade e interface aprimorada o tornaram uma escolha dominante para empresas e usuários domésticos.
+
+2015
+Windows Vista, 7, 8 e 10
+O Windows 10, lançado em 2015 unificou muitos recursos do Windows 7 e do Windows 8 e introduzindo atualizações regulares do sistema operacional.
+
+Windows 11
+O Windows 11 foi anunciado em 2021, trazendo uma nova interface e recursos aprimorados para melhorar a produtividade e a experiência do usuário.
+
+A licença de software estabelece os termos e condições sob os quais o software pode ser usado. Isso ajuda a garantir que os usuários estejam em conformidade com as leis de direitos autorais e propriedade intelectual.
+
+Muitas licenças de software comercial incluem garantias e suporte técnico. Isso é importante para os usuários, pois eles podem confiar na qualidade do software e obter ajuda quando enfrentam problemas. 
+
+Através da licença de software, os desenvolvedores podem definir como as atualizações e correções de segurança são distribuídas aos usuários. 
+
