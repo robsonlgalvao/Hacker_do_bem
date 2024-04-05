@@ -37,3 +37,43 @@ Muitas licenças de software comercial incluem garantias e suporte técnico. Iss
 
 Através da licença de software, os desenvolvedores podem definir como as atualizações e correções de segurança são distribuídas aos usuários. 
 
+Server
+
+Windows NT advanted server 3.1 - Primeira versão para servidores - 32 bits
+
+Windows NT advanted server 3.5 - Conectivedade com Unix - Conectividade com Novel
+
+Windows NT advanted server 4.0 - Microsoft Internet information Server(IIS) - Versão Terminal Server
+
+Windows server 2000 - Suporte ao XML - Active Server Pages - Active Directory para autenticação de usuários
+
+Windows server 2003 - Recursos de segurança Atualizados - Definição de server Roles
+
+Windows server 2008 - Hyper-virtualizador(Hyper-v) - Virtualizador de eventos
+
+Windows server 2012 - Suporte para uso em cloud - Melhorias deo Hyper-v
+
+Windows server 2016 - Recurso Nano Server - Recursos de Network Controller
+
+Windows server 2019 - Windows Admin Center - Imfraestrutura Hyper convergente
+
+Windows server 2022 - Melhoria nos Recursos de Segurança - Versão Datacenter Azure
+
+
+Licenciamento
+São regras que definem como pode usar
+
+Do windows 3.1 até Windows ME Chave de produto 
+
+Windows XP
+Chaves produto verificado na internet
+Vinculação de conta com licença digital.
+
+Licença do windows 7 home premium não funciona no windows 7 pro(resumo não funciona em versões diferentes)
+
+
+É possivel atualizar o windows 7 pro para windows 10 pro
+
+Importante guardar nota fiscal.
+
+FPP (Full Packeged Protuct) - Licença vendida
