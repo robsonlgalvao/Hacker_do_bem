@@ -232,4 +232,18 @@ Swithes
 
 Surgimento de protocolos como SNMP,NTP e SYSLOG
 
-SNMP - Permite monitorar e controlar os dispositivos da rede
+SNMP - Permite monitorar e controlar os dispositivos da rede.
+
+NTP - Network Time Protocol -  padrão que permite sincronização de relógio dos dispositivos de rede.
+
+SYSLOG - System Logging Protocol - Serve para Armazenar mensagens de eventos de sistema.
+
+Usado para:
+Monitoramento, solução de problemas, Segurança, Conformidade, Análise e Planejamento.
+
+Geração de eventos
+Envio para Servidor SYSLOG,(SYSLOG server ou Collector)
+Formato de mensagem
+Armazenamento e Análise
+
+
