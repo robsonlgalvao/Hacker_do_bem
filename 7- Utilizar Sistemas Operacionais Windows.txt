@@ -62,6 +62,7 @@ Windows server 2022 - Melhoria nos Recursos de Segurança - Versão Datacenter A
 
 Licenciamento
 São regras que definem como pode usar
+licença de uso ≠ licença intelectual 
 
 Do windows 3.1 até Windows ME Chave de produto 
 
@@ -77,4 +78,6 @@ Licença do windows 7 home premium não funciona no windows 7 pro(resumo não fu
 Importante guardar nota fiscal.
 
 FPP (Full Packeged Protuct) - Licença vendida
+
+OEM (Original Equipament Manufacturer) Chave utilizada pelos fabricantes de computadores(Dell, Acer, Lenovo, ETC...)
 
