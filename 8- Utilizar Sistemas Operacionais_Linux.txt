@@ -2,5 +2,7 @@ O Linux é um dos sistemas operacionais de código aberto, ou seja, seu código-
 
 Desenvolvido pelo engenheiro de software finlandês Linus Torvalds, no início do anos 1990, os Linux cresceu rapidamente em popularidade devido a facilidade no processo de colaboração no desenvolvimento do sistema operacional. 
 
+Linux é o kernel do sistema operacional
+
 Versões
 
