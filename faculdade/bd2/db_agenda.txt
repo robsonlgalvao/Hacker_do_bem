@@ -1,0 +1,128 @@
+create database agenda;
+
+use agenda;
+ 
+CREATE TABLE Pessoa(
+
+    idPes INT NOT NULL AUTO_INCREMENT,
+
+    nomePes VARCHAR(80) NOT NULL,
+
+    DataNascPes DATE, 
+
+    cidadePes VARCHAR(80),
+
+    ruaPes VARCHAR(80),
+
+    numeroPes INT,
+
+    PRIMARY KEY (idPes)
+
+) ENGINE=INNODB;
+ 
+CREATE TABLE Financeiro (
+
+    idFinanceiro INT NOT NULL PRIMARY KEY,
+
+    Salario DECIMAL(11, 2),
+
+    FOREIGN KEY (idFinanceiro) REFERENCES Pessoa(idPes)
+
+);
+
+ 
+CREATE TABLE telefone (
+
+    idTel INT NOT NULL AUTO_INCREMENT, 
+
+    numeroTel VARCHAR(10),
+
+    tipoTel VARCHAR(10),
+
+    PRIMARY KEY (idTel),
+
+    INDEX (numeroTel),
+
+    idPesFK INT,
+
+    FOREIGN KEY (idPesFK)REFERENCES Pessoa(idPes)
+
+) ENGINE=INNODB;
+ 
+ 
+CREATE TABLE Evento(
+
+    idEv INT NOT NULL AUTO_INCREMENT, 
+
+    descEv VARCHAR(80),
+
+    dataEv DATE,
+
+    horaEv TIME,
+
+    cidadeEv VARCHAR(80),
+
+    ruaEv VARCHAR(80),
+
+    numeroEv INT,
+
+    PRIMARY KEY(idEv)
+
+)   ENGINE=INNODB;
+ 
+ 
+CREATE TABLE Pes_Ev (
+
+    idEv INT NOT NULL,
+
+    idPes INT NOT NULL,
+
+    HoraChegada TIME,
+
+    PRIMARY KEY(idEv, idPes),
+ 
+    FOREIGN KEY (idPes)REFERENCES Pessoa(idPes)
+
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+ 
+    FOREIGN KEY (idEv) REFERENCES Evento(idEv)
+
+      ON UPDATE CASCADE ON DELETE RESTRICT
+
+);
+ 
+select * from Pessoa;
+
+select * from Telefone;
+
+select * from Financeiro;
+
+select * from evento;
+
+select * from Pes_Ev;
+
+
+
+INSERT INTO Pessoa values (0,"Renan", "2001-2-13","Rio de Janeiro", "Rua das Flores", 100);
+
+INSERT INTO Pessoa values (0,"Maria", "1970-01-1","Rio de Janeiro", "Rua xxx", 10);
+
+INSERT INTO Financeiro VALUES (1, 3000.50);
+
+INSERT INTO Telefone values (0,"999888777", "Celular",1);
+
+INSERT INTO Telefone values (0,"982254765", "Fixo",2);
+
+INSERT INTO Telefone values (0,"460025412", "Fixo",2);
+
+INSERT INTO Evento values (0,"Rock In Rio 4", "2002-10-1", "22:00:00", "Rio de Janeiro", "Rua Barra", 1000);
+
+INSERT INTO Evento values (0,"Rock In Rio 1", "1987-10-1", "22:00:00", "Rio de Janeiro", "Rua Barra", 1000);
+
+INSERT INTO Pes_Ev values(1,1,NULL);
+
+INSERT INTO Pes_Ev values(2,2,"22:10:00");
+
+INSERT INTO Pes_Ev values(1,2,"23:00:00");
+
+update Pes_Ev SET HoraChegada="22:15:00" where idPes=1 and idEv=1;
