@@ -62,6 +62,7 @@ Windows server 2022 - Melhoria nos Recursos de Segurança - Versão Datacenter A
 
 Licenciamento
 São regras que definem como pode usar
+licença de uso ≠ licença intelectual 
 
 Do windows 3.1 até Windows ME Chave de produto 
 
@@ -76,4 +77,94 @@ Licença do windows 7 home premium não funciona no windows 7 pro(resumo não fu
 
 Importante guardar nota fiscal.
 
-FPP (Full Packeged Protuct) - Licença vendida
+FPP (Full Packeged Protuct) - Licença vendidaem loja DVD Pendrive, documentação e chave de ativação.
+
+ESD (Eletronic Software Distribuition) - Licença comprada Digitalmente, exemplo direto na Microsoft Store
+
+OEM (Original Equipament Manufacturer) Chave utilizada pelos fabricantes de computadores(Dell, Acer, Lenovo, ETC...)
+
+Por volume:
+Open value
+Open value Subscription
+MPSA(Microsoft Product Service Agreement)
+Enterprise Agreement
+
+Especiais:
+Programa Open Licence Governamental
+Licenciamento acadêmico - Education Enterprise subscription
+Licenciamento para organizações de Saúde
+programas para ONGs
+
+File System - sistemas de arquivos - É a forma de como o sistema operacional controla a leitura e gravação de dados no HD. 
+localização das informações no HD
+Controla permissão(depende do FS)
+
+Setor - é o tamanho minimo definido pelo fabricante do armazenamento geralmente 512 bytes
+Cluster - é o tamanho definido na formatação do dispositivo o padrão é 4k.
+
+FAT16 – File Allocation Table 16 Bit
+FAT32 – File Allocation Table 32 Bit (no windows 32gb nos outros 2TB) arquivo tamanho máximo 4gb
+exFAT – extensible File Allocation Table
+NTFS – New Technology File System (max partição 8PB, tamanho de arquivo 8PB)criptografado
+ReFS – Resilient File System (MAX partição 35PB tamanho de arquivo 35PB) Não inicializável(até o momento 2024)
+
+Diretórios
+
+Organização pessoal: Você pode criar diretórios para organizar seus documentos, imagens, músicas e outros tipos de arquivos de acordo com suas preferências. 
+
+Instalação de programas: Muitos programas são instalados em diretórios específicos, geralmente em "Arquivos de Programas" ou "Program Files," para manter uma estrutura organizada e facilitar a desinstalação posterior. 
+
+Compartilhamento de arquivos: Você pode criar diretórios compartilhados em redes para permitir o acesso a arquivos e recursos em computadores conectados. 
+
+Backup e recuperação: Diretórios são usados em operações de backup para selecionar quais arquivos e pastas devem ser copiados ou restaurados.
+
+Comandos Texto
+
+cd ou chdir – Change Directory – Mudar de Diretório (pasta);
+
+dir –   lista os arquivos do diretório;
+
+cls – Clear Screen – limpar a tela;
+
+md ou mkdir – make directory – criar diretório;
+
+ren ou rename – renomear arquivo ou diretório;
+
+rmdir – remove directory – apaga diretório;
+
+Del – delete ou erase – apagar arquivo;
+
+copy -   copiar arquivo.
+
+
+Controle de acesso
+
+Sagurança
+A criação de usuários individuais permite que cada pessoa que utilize o computador tenha sua própria conta. Isso é essencial para manter a privacidade e a segurança dos dados.
+Controle ce acesso
+Através da criação de usuários, é possível controlar quem tem acesso ao computador e aos recursos compartilhados.
+Personalização
+Cada usuário pode personalizar sua própria área de trabalho, configurações de sistema e preferências.
+
+Gerenciamento de Grupos
+Camadas de Proteção: O sistema de permissões do Windows opera em várias camadas, oferecendo um nível de granularidade impressionante. 
+
+Grupos de Usuários: Para simplificar a atribuição de permissões, o Windows permite que os usuários sejam agrupados em conjuntos chamados "grupos". 
+
+Backup e Recuperação: Permissões bem gerenciadas ajudam a proteger dados importantes de exclusões acidentais ou maliciosas. 
+
+Compartilhamento em Rede
+Uma ferramenta do Windows muito vantajosa para as empresas é o compartilhamento de rede. Essa funcionalidade permite a troca de informações e recursos entre computadores em uma rede local, melhorando a colaboração, a acessibilidade e a eficiência de diversas maneiras. 
+
+O que é Backup?
+Com o acúmulo de tarefas diárias no trabalho, e o grande número de pastas, arquivos e planilhas digitais que devemos controlar e gerenciar, é muito comum que esses materiais se percam em meio a tantos e-mails e depositórios. Para evitar dor de cabeça ao perder algum arquivo importante, é muito importante criar cópias de segurança desses documentos. Esse processo é chamado de backup.
+
+Recuperação de Problemas
+Os pontos de restauração fornecem uma maneira rápida e eficaz de resolver problemas e erros do sistema sem a necessidade de reinstalar o sistema operacional do zero. 
+
+Segurança das Configurações
+Eles permitem que você experimente configurações e instalações de software sem medo, sabendo que pode sempre voltar a um estado anterior do sistema, se necessário. 
+
+Proteção contra Atualizações Problemáticas
+Se uma atualização do sistema ou um novo driver causar problemas no funcionamento do computador, um ponto de restauração anterior pode ser a solução para o problema. 
+
