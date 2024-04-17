@@ -6,3 +6,41 @@ Linux é o kernel do sistema operacional
 
 Versões
 
+Slackware - Distro mais antigo e tradicional
+Debian - Sistema altamente persolalizável seguro e focado em performance
+Ubuntu - Baseado no debian - tem tudo do Debian com mais compatibilidade com hardware 
+Mint - Baseado no Ubuntu facil migração do windows
+Kali linux - Baseado no Debian Distro focada em teste de invasão
+ParrotOS - Baseado no Debian Distro focada em teste de invasão com mais recursos de privacidade
+Arch Linux - Focada em rapidez estabilidade e segurança, instalação não amigável.
+Manjaro - Baseado no Arch visa facilidade de uso(um arch para iniciantes).
+Redhat Enterprise Linux - Baseado no fedora Focado em ambientes corporativos, segurança e suporte para resolução de problemas(não é gratuito).
+Fedora - Focada em rápidas atualizações.(extensão dbf)
+Android - Sistemas para dispositivos móveis
+
+OBS: Basicamente todos tem versões desktop(Utilização de gráficos) e servidor(Utilização em modo texto)
+
+Interfaces
+Uma interface gráfica do usuário é conhecida pela sigla "GUI", que vem do termo em inglês graphical user interface. Este é um meio de interação entre um usuário e um sistema operacional que utiliza elementos visuais.
+
+GUI - Grafical User Interface
+
+Ambientes desktop possui varias interfarces gráficas
+
+Interface gráfica é somente a forma de interagir com o sistema (Gnome,KDE....)
+Ambiente de desktop é todo o software de utilização do SO.
+
+
+Estrutura de diretórios
+
+FHS - Padrão para sistemas de arquivos Hierárquico.
+
+raiz (/): diretório primário no sistema de arquivos do Linux 
+
+/boot (inicialização): Armazena os arquivos necessários para a inicialização do sistema
+
+/home (pasta do usuário): diretório pessoal para cada usuário armazenar seus próprios arquivos e configurações. 
+
+/root (usuário root): pasta pessoal do usuário root, o superusuário com privilégios administrativos. 
+
+
