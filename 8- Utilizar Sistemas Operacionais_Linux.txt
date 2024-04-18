@@ -48,3 +48,70 @@ dev - Dispositivos de armazenamento
 etc - Configuração de aplicativos
 
 VAR - Lista de repositório de apt, snap, log....
+
+Quetta	- Q
+Ronna	- R
+Yotta	- Y
+Zetta	- Z
+Exa	- E
+Peta	- P
+Tera	- T
+Giga	- G
+Mega	- M
+Quilo	- K
+
+Sistemas de arquivos
+
+EXT4
+Integridade: Journaling/FCSK
+criptografia: sim
+compactação: não
+permissão: sim
+Limites: Arquivos 16TB Partição 1EB
+Outros Recursos: Compatibilidade Windows MacOs, Cotas em disco,
+Estabilidade e velocidade
+
+BTRFS(B-Tree file system)
+Integridade:	Copia em gravação(COW)/Auto reparo
+Criptografia:	Sim
+Compactação:	Sim
+Snapshot:	Sim
+Permissão:	Sim
+Limites:	Arquivos 16EB/Partição 16EB
+Outros Recursos: Redimecionamento de volume, RAID, Backup incremental, Desduplicação dedados
+
+JFS - Journaled File System
+Integridade 	- Journaling
+Criptografia:	- Não
+Compactação:	- Não
+Snapshots:	- Não 
+Permissões	- Sim
+Limite: 	- arquivo 4PB/partição 32PB
+
+XFS - High Performance Scalable File System
+Integridade:	Journaling
+Compactação:	Não
+Criptografia:	Não
+Snapshots:	Não
+Permissões:	Sim
+Limites:	Arquivos de 8EB/Partição 16EB
+Outros Recursos: Aumentar o tamanho, cotas, leitura e gravação paralela.
+
+ReiserFS
+Integridade:	Journaling/FSCK
+Criptografia:	Não
+Compactação:	Não
+Snapshot:	Não
+Permissões	Não
+Permissões:	Sim
+Limites:	Arquivos 8TB/Partição 16TB
+
+ZFS (criado pela oracle)
+Integridade:	CoW Checksum/auto reparo
+Criptografia:	Sim
+Compactação:	Sim
+Snapshots:	Sim
+Permissões:	Sim
+Limites:	Arquivo de 16EB/Partição 256 quatrilhões de Zettabyte
+Outros Recursos RAID-Z, Desduplicação de dados
+
