@@ -43,4 +43,8 @@ raiz (/): diretório primário no sistema de arquivos do Linux
 
 /root (usuário root): pasta pessoal do usuário root, o superusuário com privilégios administrativos. 
 
+dev - Dispositivos de armazenamento
 
+etc - Configuração de aplicativos
+
+VAR - Lista de repositório de apt, snap, log....
