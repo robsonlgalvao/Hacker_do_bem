@@ -115,3 +115,5 @@ Permissões:	Sim
 Limites:	Arquivo de 16EB/Partição 256 quatrilhões de Zettabyte
 Outros Recursos RAID-Z, Desduplicação de dados
 
+
+Particionamento
