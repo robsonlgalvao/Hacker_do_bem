@@ -1,0 +1,164 @@
+use mysql;
+ 
+create database cinema;
+use cinema;
+CREATE TABLE Pessoa(
+idPes INT NOT NULL AUTO_INCREMENT,
+nacionalidadePES VARCHAR(80),
+idadePes INT,
+nomePes VARCHAR(80) NOT NULL,
+PRIMARY KEY(idPes)
+)ENGINE=INNODB;
+ 
+CREATE TABLE Diretor(
+idDiretor INT NOT NULL,
+PRIMARY KEY(idDiretor),
+FOREIGN KEY (idDiretor) REFERENCES Pessoa(idPes)
+);
+ 
+CREATE TABLE Ator(
+idAtor INT NOT NULL,
+PRIMARY KEY(idAtor),
+CONSTRAINT idAtor FOREIGN KEY (idAtor) REFERENCES Pessoa(idPes)
+);
+ 
+CREATE TABLE Genero(
+codGenero INT NOT NULL AUTO_INCREMENT,
+descricao VARCHAR(80) NOT NULL,
+PRIMARY KEY(codGenero)
+)ENGINE=INNODB;
+ 
+CREATE TABLE filme(
+CodFilme INT NOT NULL AUTO_INCREMENT,
+paisorigem VARCHAR(80),
+impropriedade INT,
+duracao TIME,
+tituloOriginal VARCHAR(80) NOT NULL,
+idDiretorFK INT NOT NULL,
+codGeneroFK INT NOT NULL,
+PRIMARY KEY(CodFilme),
+FOREIGN KEY (idDiretorFK)REFERENCES Diretor(idDiretor),
+FOREIGN KEY (codGeneroFK)REFERENCES Genero(codGenero)
+)ENGINE=INNODB;
+ 
+CREATE TABLE FilmeEstrangeiro(
+codFilme INT NOT NULL,
+tituloportuques VARCHAR(80) NOT NULL,
+PRIMARY KEY(codFilme),
+FOREIGN KEY (Codfilme) REFERENCES filme(Codfilme)
+);
+ 
+CREATE TABLE Atua(
+idAtorAs INT NOT NULL,
+codFilmeAs INT NOT NULL,
+PRIMARY KEY(idAtorAs, codFilmeAs),
+FOREIGN KEY (idAtorAs)REFERENCES Ator(idAtor),
+FOREIGN KEY (codFilmeAs)REFERENCES filme(codfilme)
+);
+ 
+CREATE TABLE Sessao(
+codSessao INT NOT NULL AUTO_INCREMENT,
+Horario TIME NOT NULL,
+Data DATE NOT NULL,
+PRIMARY KEY(codSessao)
+)ENGINE=INNODB;
+ 
+	
+CREATE TABLE Cinema(
+idcinema INT NOT NULL AUTO_INCREMENT,
+nomeFantasia VARCHAR(80),
+avevida VARCHAR(80),
+bairro VARCHAR(80),
+municipio VARCHAR(80),
+estado CHAR(2),
+capacidade INT,
+PRIMARY KEY(idcinema)
+)ENGINE=INNODB;
+ 
+CREATE TABLE Apresentacao(
+idCinema INT NOT NULL,
+CodFilme INT NOT NULL,
+codSessao INT NOT NULL,
+qtdPublico INT,
+PRIMARY KEY(idCinema,CodFilme,CodSessao),
+FOREIGN KEY (CodFilme) REFERENCES Filme(CodFilme),
+FOREIGN KEY (codSessao) REFERENCES Sessao(codSessao),
+FOREIGN KEY (idCinema) REFERENCES Cinema(idCinema)
+);
+ 
+ 
+INSERT INTO Pessoa values (0,"brasieliro", "30", "arthur"); 
+INSERT INTO Pessoa values (0,"turco", "40", "cluber");
+INSERT INTO Pessoa values (0,"argentino", "50", "rans");
+ 
+INSERT INTO Ator values (1); 
+INSERT INTO Ator values (2); 
+INSERT INTO Ator values (3);
+ 
+INSERT INTO Diretor values (2);
+ 
+INSERT INTO Genero values (0,"aventura");
+INSERT INTO Genero values (0,"terror");
+INSERT INTO Genero values (0,"suspense");
+ 
+ 
+INSERT INTO filme values (0,"brasil", 10, "01:35:00", "tropa de elite",2,1); 
+INSERT INTO filme values (0,"australia", "12", "02:00:00", "canguru",2,2);
+INSERT INTO filme values (0,"russia", "18", "03:00:00", "vodka",2,3);
+ 
+INSERT INTO FilmeEstrangeiro values (1, "vai matar");
+ 
+ 
+INSERT INTO Cinema values (0,"alegria", "santacruz", "bangu", "rj", "rj", "100");
+INSERT INTO Cinema values (0,"felicidade", "fontinelle", "campo grande", "rj", "rj","100");
+INSERT INTO Cinema values (0,"derrota", "brasil", "anchieta", "rj", "rj", "100");
+ 
+ 
+INSERT INTO Sessao values (0,"14:00:00","2021-10-2"); 
+INSERT INTO Sessao values (0,"16:00:00","2021-10-2"); 
+INSERT INTO Sessao values (0,"18:00:00","2021-10-2");
+ 
+INSERT INTO Apresentacao values (1,1,1,50); 
+INSERT INTO Apresentacao values (2,2,1,100); 
+INSERT INTO Apresentacao values (3,1,3,80); 
+INSERT INTO Apresentacao values (1,3,2,80);
+
+select
+tituloOriginal,horario,data 
+from
+Filme F, Cinema C, Apresentacao A, Sessao S
+where 
+C.idCinema=1 and
+C.idCinema=A.idCinema and
+S.codSessao=A.codSessao and
+F.codFilme=A.codFilme;
+
+[19:57] André.Filho
+Trabalho do item 5.3.4.1 Selecting All Data
+[19:57] André.Filho
+Até 5.3.4.9 Using More Than one Table
+[19:58] 
+Unknown User foi convidado para a reunião.
+
+
+https://dev.mysql.com/doc/refman/8.0/en/selecting-all.html
+De 5.3.4.1 Selecting All Data
+Até 5.3.4.9 Using More Than one Table
+
+select
+tituloOriginal,horario,data 
+from
+Filme F, Cinema C, Apresentacao A, Sessao S
+where 
+C.idCinema=1 and
+C.idCinema=A.idCinema and
+S.codSessao=A.codSessao and
+F.codFilme=A.codFilme;
+ 
+select
+TituloOriginal, Duracao
+From
+Filme, Genero
+where
+descricao="aventura" and
+Genero.codGenero=Filme.codGenerofk;
