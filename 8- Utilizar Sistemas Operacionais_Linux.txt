@@ -6,3 +6,114 @@ Linux é o kernel do sistema operacional
 
 Versões
 
+Slackware - Distro mais antigo e tradicional
+Debian - Sistema altamente persolalizável seguro e focado em performance
+Ubuntu - Baseado no debian - tem tudo do Debian com mais compatibilidade com hardware 
+Mint - Baseado no Ubuntu facil migração do windows
+Kali linux - Baseado no Debian Distro focada em teste de invasão
+ParrotOS - Baseado no Debian Distro focada em teste de invasão com mais recursos de privacidade
+Arch Linux - Focada em rapidez estabilidade e segurança, instalação não amigável.
+Manjaro - Baseado no Arch visa facilidade de uso(um arch para iniciantes).
+Redhat Enterprise Linux - Baseado no fedora Focado em ambientes corporativos, segurança e suporte para resolução de problemas(não é gratuito).
+Fedora - Focada em rápidas atualizações.(extensão dbf)
+Android - Sistemas para dispositivos móveis
+
+OBS: Basicamente todos tem versões desktop(Utilização de gráficos) e servidor(Utilização em modo texto)
+
+Interfaces
+Uma interface gráfica do usuário é conhecida pela sigla "GUI", que vem do termo em inglês graphical user interface. Este é um meio de interação entre um usuário e um sistema operacional que utiliza elementos visuais.
+
+GUI - Grafical User Interface
+
+Ambientes desktop possui varias interfarces gráficas
+
+Interface gráfica é somente a forma de interagir com o sistema (Gnome,KDE....)
+Ambiente de desktop é todo o software de utilização do SO.
+
+
+Estrutura de diretórios
+
+FHS - Padrão para sistemas de arquivos Hierárquico.
+
+raiz (/): diretório primário no sistema de arquivos do Linux 
+
+/boot (inicialização): Armazena os arquivos necessários para a inicialização do sistema
+
+/home (pasta do usuário): diretório pessoal para cada usuário armazenar seus próprios arquivos e configurações. 
+
+/root (usuário root): pasta pessoal do usuário root, o superusuário com privilégios administrativos. 
+
+dev - Dispositivos de armazenamento
+
+etc - Configuração de aplicativos
+
+VAR - Lista de repositório de apt, snap, log....
+
+Quetta	- Q
+Ronna	- R
+Yotta	- Y
+Zetta	- Z
+Exa	- E
+Peta	- P
+Tera	- T
+Giga	- G
+Mega	- M
+Quilo	- K
+
+Sistemas de arquivos
+
+EXT4
+Integridade: Journaling/FCSK
+criptografia: sim
+compactação: não
+permissão: sim
+Limites: Arquivos 16TB Partição 1EB
+Outros Recursos: Compatibilidade Windows MacOs, Cotas em disco,
+Estabilidade e velocidade
+
+BTRFS(B-Tree file system)
+Integridade:	Copia em gravação(COW)/Auto reparo
+Criptografia:	Sim
+Compactação:	Sim
+Snapshot:	Sim
+Permissão:	Sim
+Limites:	Arquivos 16EB/Partição 16EB
+Outros Recursos: Redimecionamento de volume, RAID, Backup incremental, Desduplicação dedados
+
+JFS - Journaled File System
+Integridade 	- Journaling
+Criptografia:	- Não
+Compactação:	- Não
+Snapshots:	- Não 
+Permissões	- Sim
+Limite: 	- arquivo 4PB/partição 32PB
+
+XFS - High Performance Scalable File System
+Integridade:	Journaling
+Compactação:	Não
+Criptografia:	Não
+Snapshots:	Não
+Permissões:	Sim
+Limites:	Arquivos de 8EB/Partição 16EB
+Outros Recursos: Aumentar o tamanho, cotas, leitura e gravação paralela.
+
+ReiserFS
+Integridade:	Journaling/FSCK
+Criptografia:	Não
+Compactação:	Não
+Snapshot:	Não
+Permissões	Não
+Permissões:	Sim
+Limites:	Arquivos 8TB/Partição 16TB
+
+ZFS (criado pela oracle)
+Integridade:	CoW Checksum/auto reparo
+Criptografia:	Sim
+Compactação:	Sim
+Snapshots:	Sim
+Permissões:	Sim
+Limites:	Arquivo de 16EB/Partição 256 quatrilhões de Zettabyte
+Outros Recursos RAID-Z, Desduplicação de dados
+
+
+Particionamento
