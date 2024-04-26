@@ -117,3 +117,17 @@ Outros Recursos RAID-Z, Desduplicação de dados
 
 
 Particionamento
+
+Instalação básica do sistema
+
+particionamento manual(para treino)
+
+criar um bootloader (se for uefi/GPT criar com 1gb)
+criar SWAP (ideal igual ou dobro da memória ram)
+ubuntu cria padrão em EXT4(recomendado colocar BTRFS) e ponto de montagem (/ = Raiz tamanho mínimo de 15gb)
+
+
+Comandos basicos
+
+
+
