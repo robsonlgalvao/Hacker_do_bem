@@ -171,4 +171,3 @@ usermod -aG		- troca usuário de grupo.ex: usermod -aG nomegrupo nomeusuário
 nano /etc/sudoers	- para elevação de privilégios(colocar o nome do usuário com as configurações do root)
 nano /etc/gshadow	- senhas de grupo
 
-
