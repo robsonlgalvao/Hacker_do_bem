@@ -127,3 +127,48 @@ criar SWAP (ideal igual ou dobro da memória ram)
 ubuntu cria padrão em EXT4(recomendado colocar BTRFS) e ponto de montagem (/ = Raiz tamanho mínimo de 15gb)
 
 
+Comandos básicos(terminal)
+
+ctrl+alt+f3 (linux modo texto)obs: se não for f3 tenta do f1 até f6 será um deles
+
+ctrl+alt+f2 (linux modo gréfico)obs: se não for f2 tenta do f1 até f6 será um deles
+
+ls	-Listar
+ls -la	-Lista até ocultos e detalhes
+clear	-limpar tela
+cd	-Change directory (mudar pasta/diretório)
+mkdir	-Make directory (Criar pasta/diretório)
+nano	-Editor de texto
+mv	-move (mover ou renomear)
+cp	-copy (copiar)
+rm	-remove(remover) -r para apagar pasta
+--help	- mostra os parametros que pode usar com outro comando,ex:ls --help/cd --help...
+pwd	-(print work directory) imprime o caminho
+cat	-(concatenar) ou imprime o que tem dentro do arquivo
+sudo	-(super user do) Elevação de privilégios
+ip a	-(ip address) Exibe endereços
+top/btop-(Gerenciador de tarefas)
+df -h	- listar discos em uso
+|grep	- filtrar perquisas
+
+
+Sempre que estiver digitando algo exixtente aperta TAB que linux completa, ex: nome grande de um diretório.
+
+Tipos de usuários
+useradd	-m		- Cria usuário sintaxe useradd -m nomeusuário
+nano /ect/passdw	-saber se usuário foi criado
+nano /ect/shadow	-ver os usuário e as senha criptogravadas
+passwd 			-criar senha para um usuário. ex passwd usuario
+adduser			-criar usuário(Não funcioan em todas versões)mais automático
+
+Existem usuários padrões(adm ou não)
+usuários de serviços internos
+
+Grupos 
+nano /etc/group		- ver os nomes dos grupos
+addgroup nomegrupo	- Criar grupo (Tudo minusculo e sem espaço no nome)
+usermod -aG		- troca usuário de grupo.ex: usermod -aG nomegrupo nomeusuário
+nano /etc/sudoers	- para elevação de privilégios(colocar o nome do usuário com as configurações do root)
+nano /etc/gshadow	- senhas de grupo
+
+
