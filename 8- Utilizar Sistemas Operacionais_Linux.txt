@@ -171,3 +171,94 @@ usermod -aG		- troca usuário de grupo.ex: usermod -aG nomegrupo nomeusuário
 nano /etc/sudoers	- para elevação de privilégios(colocar o nome do usuário com as configurações do root)
 nano /etc/gshadow	- senhas de grupo
 
+Permissões
+
+leitura	-([R]ead) - Consegue ler arquivo/pasta
+escrita	-([W]rite) - Consegue alterar/apagar arquivo/pasta
+execução-(e[X]ecute)-Consegue executar o arquivo/acessar pasta
+
+podem ser do:
+
+Usuário proprietário[user owner](u)
+Grupo[group](g)
+Outros[other](o)
+
+ls -l - listar diretorios/ arquivos com detalhes
+
+d  (diretório)
+-  (Arquivo)
+l  (link)
+
+ex: drwxrwxr-x	(d rwx rwx r-x)
+
+são 10 marcações 
+1ª(se é pasta/diretório,arquivo ou link); 
+2ª,3ª e 4ª(usuário);
+5ª,6ª,7ª(grupo); 
+8ª,9ª e 10ª(outros usuários);
+
+tabela de permissões
+
+decimal		binario		permissão
+
+0		000		sem permissão
+1		001		Executar 		(--x)
+2		010		escrita/write		(-x-)
+3		011		executar e escrita	(-wx)
+4		100		Leitura/read		(r--)
+5		101		Leitura e execução	(r-x)
+6		110		leitura e escrita	(rw-)
+7		111		leitura, escrita e execução(rwx)
+
+drwxrwxr-x = d 775 ou d 111 111 101
+
+
+Alterar permissões de pasta
+
+ls -la (exibe arquivos/pastas ocultos)
+
+ch mod (usado para mudar permissões)
+ex:(chmod u+rwx g-rwx o+rwx) ou (chmod 707)
+nesse exemplo colocamos(+) no usuário(u) leitura(r) escrita(w) e execusão(x); 
+já no grupo retiramos(-), leitura(r) escrita(w) e execusão(x)
+e no outros usuários colocamos(+), leitura(r) escrita(w) e execusão(x)
+
+ex total: chmod 707 ou u+rwx g-rwx o+rwx caminho pasta desejada.
+
+OBS: o padrão é 775
+
+
+chown	- muda o proprietário. ex: sudo crown novoProprietário nomePasta/arquivo
+
+chgrp	- Muda o grupo. ex: sudo chgrp grupoDestino nomePasta/arquivo.
+
+
+Instalações de pacotes
+Principais formas
+
+Código fonte
+instalação:
+geralmente extrair
+comando ./configure
+comando make
+comando make install ou checkinstall(ubuntu)
+
+Pacotes pré-compilados
+depende da distro
+mais comuns: .deb ou .rpm
+
+gerenciadores de pacote
+geralmente são as lojas das distros(normalmente clicando 2 vezes instala ou pode usar o comando apt(mais usado, dempende da distro))
+
+gerenciador de pacote universais
+os mais usados:
+flatpak
+snap
+
+
+AppImage(Semelhante aos portateis no windows)
+funciona sem instalar(limitado)
+
+
+Repositórios(cada distro tem um, mas existem de terceiros)
+
