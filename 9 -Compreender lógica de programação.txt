@@ -1,0 +1,11 @@
+Entrada processamento e saída
+
+Hardware - parte física
+
+Software - parte lógica
+
+linguagem de programação - é conjunto de simbolos/palavras reservadas
+
+instalando o colab
+abrir o googledrive criar uma pasta para o projeto, clicar em + para adicionar o google colaboratory(ferramenta para programar python)
+
