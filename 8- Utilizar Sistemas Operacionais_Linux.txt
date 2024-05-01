@@ -262,3 +262,41 @@ funciona sem instalar(limitado)
 
 Repositórios(cada distro tem um, mas existem de terceiros)
 
+terminal
+apt updade
+apt upgrade
+apt install
+apt remove
+
+
+instalar flatpak
+
+sudo apt install flatpak
+sudo apt install gnome-software-flatpak
+
+usando o flatpak (forma diferente de instalar programas)
+
+flatpak update
+flatpak install
+flatpak uninstall
+
+
+Compilação de código fonte
+
+baixar o arquivo, ex: tree-2.1.1.tgz
+
+descompactar com: tar -xzf tree-2.1.1.tgz (obs: -x para descompactar, z é informando que é zip, f é para apontar local do arquivo)
+
+procurar arquivo makefile(Arquivo com script para instalação)
+
+Dentro da pasta mesma pasta usa o comando make (aqui só funciona dentro da pasta de origem)
+
+depois comando sudo make install(para instalar no sitema)
+
+APPImage
+
+depois de baixar o pacote clica com botão de opção e vai na opção exetutar como programa ou no terminal chmod +x nome do arquivo
+
+tenta abrir primeiro pelo terminal para ver se falta alguma biblioteca, se sim instale com sudo apt install nomebiblioteca
+ OBS: cuidado para não substituir as que já existem ex: ja tem o fuse 3 o programa precisa de fuse2 ciloque libfuse2 para manter os 2, se colocar ó fuse será trocado o 3 pelo 2.
+
