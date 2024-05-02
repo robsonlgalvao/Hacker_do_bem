@@ -9,3 +9,105 @@ linguagem de programação - é conjunto de simbolos/palavras reservadas
 instalando o colab
 abrir o googledrive criar uma pasta para o projeto, clicar em + para adicionar o google colaboratory(ferramenta para programar python)
 
+Programação linguagem python
+
+print("Texto aqui")			-comando para mostrar na tela
+
+input("Mensagem q aparece p usuário")	- um texto com entrada de dados
+
+Variáveis
+
+tipos
+texto		-string(str)
+inteiro		-int
+decimal		-float
+list		-lista
+bool		-lógico(verdadeiro ou falso)
+
+
+calculo do IMC
+# entrada de dados:
+
+altura = input("Digite sua altura: ")
+peso =  input("Digite seu peso: ")
+idade =  input("digite sua idade: ")
+
+# processamento de dados:
+
+altura =float (altura)
+peso = float (peso)
+idade = int (idade)
+imc=peso/(altura*altura)
+
+# saida
+
+print(imc)
+
+Agora melhorado
+# entrada de dados:
+
+altura = float(input("Digite sua altura: "))
+peso =  float(input("Digite seu peso: "))
+idade =  int(input("digite sua idade: "))
+
+# processamento de dados:
+
+imc=peso/(altura*altura)
+
+# saida
+
+print(f"Seu indice é {imc:.2f} e a sua idade é: {idade}")
+# ou print ("Seu indice é: ",imc)
+
+Condicional
+
+operadores relacionais 
+
+==	-igualdade
+!=	-diferente
+>	-maior de
+<	-menor de
+>=	-maior ou igual
+<=	-menos ou igual
+
+Operadores Lógico
+e	- and
+ou	- or
+não	- not
+
+Condicional simples
+
+if():
+	se verdade começa aqui
+	ação
+	ação
+
+# iniciando outro if a identação faz o inicio e o fim da condição
+if():
+	se verdade começa aqui
+	ação
+	ação
+
+# condicional 2
+
+nota = float(input("Digite a nota do aluno: "))
+
+#processamento
+
+if(nota>=9):
+  print("Aluno conceito A")
+
+elif(nota>=7):
+  print("Aluno conceito B")
+
+elif(nota>=6):
+   print("Aluno conceito C")
+
+elif(nota>=5):
+   print("Aluno conceito D")
+
+else:
+   print("Aluno conceito F")
+
+Repetição
+
