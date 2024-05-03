@@ -1,0 +1,63 @@
+Scripts windows
+
+Codigo desenvolvido para automatizar uma operação
+
+Automação
+Padronização de processos
+Gerenciamento de Sistemas e Redes
+Manipulação de Dados
+Personalização e Extensibilidade
+Redução de Erros Eficiência e Produtividade
+
+Powershell 
+Batch
+VBScript
+JavaScript
+
+Vantagens
+
+Agilidade	- Automatiza tarefas
+Flexibilidade	- pode ser adaptado
+Portabilidade	- Executável em difarentes plataformas
+Integração	- Comunica-se com outros programas, usando bibliotecas externas
+
+
+Riscos	- Malware, vulnerabilidade e permissões elevadas
+Boa prática:
+Verificar origem, integridade, analisar conteúdo e comportamento, limitar permissões e recursos, atualizar e proteger sistemas
+
+#script para listar processos em execução
+
+Get-Process | Format-Table -AutoSize
+
+#script para criar um arquivo zip com os arquivos de uma pasta
+
+$source = "C:\Users\user\Documents"
+$destination = "C:\Users\userDocuments.zip"
+
+#scripts para enviar um email
+
+$Outlook = New-Object -ComObject Outlook.Application
+$Mail = $Outlook.CreateItem(0)
+$Mail.To = "destinatio@mail.com"
+$Mail.Subject = "Assunto do Email"
+$Mail.Body = "Corpo do email"
+#Mail.Send()
+
+ 
+Batch
+
+::script para exibir a data e a hora atuais
+
+echo %date% %time%
+
+::Script para criar um arquivo para outra pasta
+
+copy C:\Users\user\file.txt D:\Backup\file.txt
+
+::Script para executar um ping em um site
+ping www.bing.com
+
+
+
+
