@@ -110,4 +110,62 @@ else:
    print("Aluno conceito F")
 
 Repetição
+#Usando while
+i=1
+num=1
+while(num!=0):
+ num=int (input("Digite o número para calcular a tabuada ou 0 p/ parar:"))
+ print("Tabuada")
+ i=1
+ while(i<=10):
+  print(f"{num}x{i}={num*i}")
+  i=i+1
+  
+#Usando for
 
+num=int(input("Digite um número para calcular tabuada: "))
+print(f"Tabuada de {num}")
+for i in range (11):
+  print(f"{num} x {i} = {num*i}")
+
+#Usando for e while
+
+num=1
+while(num!=0):
+ num=int (input("Digite o número para calcular a tabuada ou 0 p/ parar:")) 
+ print(f"Tabuada de {num}")
+ for i in range (11):
+  print(f"{num} x {i} = {num*i}")
+
+#Usando while, for e if
+
+num=1
+while(num>0):
+ num=int (input("Digite o número para calcular a tabuada ou 0 p/ parar:")) 
+ if(num>0):
+  print(f"Tabuada de {num}")
+  for i in range (11):
+    print(f"{num} x {i} = {num*i}")
+ else:
+  print("Até a próxima!!!")
+
+#calculando a média
+
+#Contador
+cont=1
+#acumulador
+soma=0
+#repetição
+while(cont<=5):
+  idade=int(input(f"Digite A idade o usuário nº{cont}: "))
+  soma=soma+idade #aqui acumulando
+  cont=cont+1	#aqui contador
+media=soma/5	#ou media=soma/(contador-1)  aqui calculo média
+print(f"A média das idades é: {media}")
+
+#Tabuada até 10
+
+for i in range(2,11):
+  for j in range(1,11):
+    print(f"{i} x {j} = {i*j}")
+  print("\n")
