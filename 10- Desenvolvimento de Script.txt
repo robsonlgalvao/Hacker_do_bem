@@ -59,5 +59,6 @@ copy C:\Users\user\file.txt D:\Backup\file.txt
 ping www.bing.com
 
 
+VBScript
 
-
+'script para exibir uam msg
