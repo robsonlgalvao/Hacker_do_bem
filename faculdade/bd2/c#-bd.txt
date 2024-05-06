@@ -1,0 +1,8 @@
+using (SqlConnection conexao = new SqlConnection("sua_string_de_conexão"))
+{
+    conexao.Open();
+    using (SqlCommand comando = new SqlCommand("CREATE TABLE MinhaTabela (Id INT PRIMARY KEY, Nome NVARCHAR(50))", conexao))
+    {
+        comando.ExecuteNonQuery();
+    }
+}
