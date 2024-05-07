@@ -124,7 +124,41 @@ set /a "c=%a%+%b%"
 
 echo O resultado é: %c%
 
+Operações relacionais
 
+@set n1=5
+@set n2=2
+
+if %n1% gtr %n2% (echo o número 1 é maior que o número 2.) else if %n1% lss %n2%(echo Os números são iguais)
+
+
+
+Manipulação de Arquivos
+
+REM Criar uma parta chamada "MinhaPasta"
+
+mkdir MinhaPasta
+
+REM Criar arquivo txt
+
+type nul> meu arquivo.txt
+
+REM Copiar um arquivo chamado"meuarquivo.txt" para a pasta
+
+copy meuarquivo.txt MinhaPasta
+
+REM Mover a pasta "MinhaPasta" para outro local
+
+move MinhaPasta novalocalizacao\MinhaPasta
+
+REM Renomear o arquivo dentro da pasta
+
+ren NovaLocalizacao\MinhaPasta\meuarquivo.txt NovoNomedeArquivo.txt
+
+
+REM Deletar A pasta e seu conteúdo
+
+rmdir /s /q localizacao\MinhaPasta
 
 
 
