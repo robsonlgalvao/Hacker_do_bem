@@ -77,6 +77,54 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 strDesktop = objFSO.GetSpecialFolder(0)
 objFSO.CreateFolder strDesktop & "\Nova Pasta"
 
+JavaScript
+
+//script para exibir uma msg na tela
+
+WScript.Echo("Olá mundo");
+
+//Script para criar um arquivo de texto no desktop
+
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var desktop = fso.CreateTextFile(desktop + "\\Arquivo.txt",true);
+file.write("Este é um texto criado por um script");
+file.Close();
+
+//script para abrir Notepad e escrever algo nele
+
+var shell = new ActiveXObject("WScript.shell");
+shell.Run("notepad.exe");
+WScript.sleep(1000);
+shell.SendKeys("Este é um texto escrito por um script");
+
+Tecnicas Avançadas
+
+Parâmetros e argumentos
+
+Permite os scripts mais flexíveis e reutilizáveis adapdando-se em diferentes situações
+
+Funções e módulos
+estrituras condicionais
+espreções reculares
+usar bibliotecar externas
+
+inicio
+
+batch
+abra o cmd e digite
+
+set nome=João
+echo Olá %nome%
+
+Calculo
+
+set a=5
+set b=4
+set /a "c=%a%+%b%"
+
+echo O resultado é: %c%
+
+
 
 
 
