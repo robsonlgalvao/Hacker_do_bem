@@ -61,4 +61,23 @@ ping www.bing.com
 
 VBScript
 
-'script para exibir uam msg
+'script para exibir uma msg na tela
+
+MsgBox "Olá mundo!"
+
+'script para abrir o internet explorer e navegar para um site
+
+Set objIE = CreateObject("InternetExplorer.Application")
+objIE.Visible = True
+objIE.Navigate "http://www.bing.com"
+
+'script para criar uma pasta no desktop
+
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+strDesktop = objFSO.GetSpecialFolder(0)
+objFSO.CreateFolder strDesktop & "\Nova Pasta"
+
+
+
+
+
