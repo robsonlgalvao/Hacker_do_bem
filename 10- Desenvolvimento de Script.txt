@@ -161,5 +161,45 @@ REM Deletar A pasta e seu conteúdo
 rmdir /s /q localizacao\MinhaPasta
 
 
+Power Shell
+
+Write-host "Hello, Word"
+
+if($a -gt $b){
+	
+	Write-Host "A é maior que B"
+
+} else {
+
+	Write-Host"B é maior que A"
+
+for ($i=1;$i-le 5,$i++){
+
+	Write-Host"Iteração $i"
+
+}
+
+
+Função 
+
+function Saudacao{param ([string]$nome) Write-Host "Olá, $nome!"}
+
+#Chamada função
+
+Saudacao -nome "Amigo"
+
+
+function Saudacao {
+	param(
+		[string]$nome,
+		[string]$cumprimento
+	)
+	write-host "$cumprimento,$nome!"
+}
+
+#chamando Função
+
+Saudacao -nome "Amigo"
+Saudacao -nome "Amigo" -cumprimento "Bom dia"
 
 
