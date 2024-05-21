@@ -203,3 +203,58 @@ Saudacao -nome "Amigo"
 Saudacao -nome "Amigo" -cumprimento "Bom dia"
 
 
+Script para remoção de malwares no registro
+
+$chaveMaliciosa = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\EncryptorMalicioso"
+
+if(Test-Path $chaveMaliciosa){
+	Write-Host "Removendo chave maliciosa..."
+	Remove-Item -Path $chaveMaliciosa -Force
+	Write-Host "Chave maliciosa removida com sucesso"
+}
+else{
+	Write-Host "Nenhuma chave maliciosa encontrada no Registro. "	
+
+}
+
+
+Criptografar e descriptografar mensagem
+
+#Encryption Key (16,24 or 32 bytes)
+$encryptionKey = [Text.Encoding]::UTF8.GetBytes("MySecretEncryptionKey")
+
+#text to encrypt
+$textToEncrypt = "SENAI123."
+
+#Convert the text to bytes
+$bytesToEncrypt = [Text.Encoding]::UTF8.GetBytes($textToEncrypt)
+
+#create AES encryption object
+$aes = [System.Security.Cryptography.Aes]::Create()
+$aes.Mode = [System.Security.Cryptography.CipherMode]::CBC
+$aes.Padding = [System.Security.Cryptography.PaddingMode]::PKCS7
+
+$aes = [System.Security.Cryptography.Aes]::Create()
+
+$aes.Mode = [System.Security.Cryptography.CipherMode]::CBC
+$aes.Padding = [System.Security.Cryptography.PaddingMode]::PKCS7
+
+#Generate a random IV(inicialization Vector)
+
+$aes.GenerateIV()
+
+#create an encryption stream
+$encryptor = $aes.CreateEncryptor()
+
+#Encrypt the bytes
+$encryptedBytes = $encryptor.TransformFinalBlock($bytesToEncrypt,0,$bytesToEncrypt.Length)
+
+#Convert the encrypted bytes to Base64 for storange
+$encryptedText = [Convert]::ToBase64String($aes.IV + $encryptedBytes)
+
+#Display the Encrypted Text
+Write-Host "Encrypted Text: $encryptedText"
+
+
+
+
