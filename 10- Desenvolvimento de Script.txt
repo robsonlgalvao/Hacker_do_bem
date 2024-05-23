@@ -274,4 +274,42 @@ $decryptedText = [Text.Encoding]::UTF8.GetString($decryptedBytes)
 #Display the decrypted text
 Write-Host "Decrypted Text: $decryptedText"
 
+=============================Verificação de politicas de segurança============================
+
+
+Get-ExecutionPolicy
+Get-ProocessMitigation-System
+Get-MpPreference | Select-Object-Property *Detection*
+
+Esse script exibe informeções sobre a política de execução, políticas de mitigação de processo e preferências de detecção do Windows Defender
+
+================================Varreduras de portas======================================
+
+Get-NetTCPConnection | Select-Object -Property LocalAddress, LocalPort, RemoteAddress, RemotePort, State
+Test-NetConnection -ComputerName localhost -Port 80
+
+Este script Lista as conexões TCP ativas e verifica a conectividade com porta específica
+
+
+===================================Verificar atividade de logon==============================
+
+
+Get-WinEvent -LogName Security | Where-Object {$_.Id -eq 4624 -or $_.Id -eq 4634} | Select-Object -Property TimeCreated, Id, Message
+
+
+================================Análise de processos suspeitos====================================
+
+Get-Process | Where-Object{$_.Path -eq $null -and $_.Handles -gt500-and $_.CPU -gt 50}
+
+
+Escte script lista processos que não tem um caminho de arquivom associado, têm um número significativo de identificadores de objeto ou então usando uma quantidade considerável de CPU
+
+==================================================================================================
+
+
+
+
+
+
+
 
