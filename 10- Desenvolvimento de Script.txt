@@ -314,6 +314,60 @@ Escte script lista processos que não tem um caminho de arquivom associado, têm
 
 
 
+O que é um script? 
+
+É um código para otimizar ou automatizar processos com sistemas computacionais
+
+
+Importância
+
+Eficiência ; consistência; Resposta rápida a incidentes; Analize de dados; monitoramento contínuo; escalonamento
+
+
+======================================linguagem Bash============================================
+
+Comentário que serão ignorados coloque # no inicio
+Variáveis: 
+são usadas para guardar valores ex: nome="Usuário"
+
+Comandos: 
+Comando do sistema podem ser executados usando crase('') ou $(). Ex: data=$(date)
+
+Estrutura condicionais:
+if, elif e fi são usados para tomada de decisões baseadas em condições.
+
+Estruturas de loop:
+for e while permitem repetições várias vezes.
+
+Redirecionamenro de saida:
+>(redireciona saída para um arquivo) e >> (Anexa saída de um arquivo).
+
+Teste e comparação:
+comando teste (ou[]) é usado para comparação de strings, números e arquivos.
+
+Funções:
+Permitem definir blocoas de códigos reutilizáveis 
+
+Argumentos de Linha de Comando:
+Variáveis especiais como $1, $2, etc.... permitem passar argumento para argumentos para script.
+
+Interpolação de Variáveis:
+Variáveis podem ser usadas dentro de strings com aspas duplas para interpolação.
+
+
+
+========================================Comandos==============================================
+
+cd desktop
+
+
+nano aula1.txt (Abre o nano e cria um arquivo com nome aula1 com extenção txt)
+
+
+
+
+
+
 
 
 
