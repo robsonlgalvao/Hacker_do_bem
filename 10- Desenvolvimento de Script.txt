@@ -363,13 +363,48 @@ cd desktop
 
 nano aula1.txt (Abre o nano e cria um arquivo com nome aula1 com extenção txt)
 
+^ no nano é a tecla ctrl
 
 
+cat aula1.txt (Mostra o conteúdo do arquivo aula1.txt)
 
+cat aula1.txt > teste.txt (Passa o conteúdo de aula1.txt para teste.txt)
 
+clear (Limpa tela)
 
+chmod (edita tipo de arquivos)
 
+chmod +x teste.txt (faz o arquivo teste.txt receber função de executável)
 
+=======================criando um programa=========================
+1 crie um txt no nano
+2 digite o codigo e salve
+ex:
+#! /bin/bash
+valido=true
+count=1
+while[$valido]
+do
+	echo $count
+	if[$count -eq 5];
+	then
+	break
+	fi
+	((count++))
+done
 
+3 Salve o arquivo
+4 use chmod +x nomearquivo.txt (Para atricuir função de executável)
+5 ./nomedoarquivo.txt (Para executar o programa)
+
+=================================com o for============================
+#! /bin/bash
+for((count=10; count>0; count--))
+do
+	echo -n "$count "
+	
+done
+
+=======================================================================
 
 
