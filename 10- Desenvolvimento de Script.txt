@@ -406,5 +406,53 @@ do
 done
 
 =======================================================================
+#! /bin/bash
+sudo apt install net-tools (Opcional)
+echo "Listando conexões ativas"
+
+netstat 	(Verifica as conexões ativas)
+========================================================================
+
+grep "texto procurado" arquivo.txt 
+(Acha em um arquivo o texto procurado no arquivo.txt)
+
+=========================================================================
+
+nano atualizacao.txt
+
+**************dentro arquivo*******************************
+#! /bin/bash
+
+echo "Verificando Atualizações Disponíveis: "
+apt-get update
+apt-get upgrade -s | grep "upgraded,"
+**************************************************
+
+chmod +x atualizacao.txt
+sudo ./atualizacao.txt
+===========================================================================
 
 
+nano vunerabilidade.sh
+
+**************dentro arquivo*******************************
+#! /bin/bash
+site = "https://www.google.com"
+vulnerabilidade="CVE-2014-6271"
+
+echo resultado=$(curl -s -i "$site" | grep "$vulnerabilidade")
+
+if[-n "$resultado"];then 
+echo "Vulnerabilidade detectada"
+else
+echo "Site seguro"
+fi
+
+**************************************************
+
+chmod +x vunerabilidade.sh
+sudo ./vunerabilidade.sh
+
+=============================================================================
+
+até video 4
