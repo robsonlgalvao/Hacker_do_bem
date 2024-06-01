@@ -455,4 +455,52 @@ sudo ./vunerabilidade.sh
 
 =============================================================================
 
-até video 4
+Manipulação de arquivos e diretórios
+
+mkdir testepasta (Cria diretórios/pasta de nome testepasta)
+ls		(Listar tudo que tem no local)
+cp Oquecopiar paraOndeCopiar (ex: cp teste.txt testepasta)	(Copia arquivos/pasta)
+
+mv (move ou renomear)
+ex: mv teste.txt novo.txt (Renomeando arquivo teste.txt para novo.txt)
+
+rm (Remover arquivos/pastas) ex: rm novo.txt (arquivo novo.txt será removido)
+
+Comandos dentros de arquivos
+Ex:
+
+===========fora do arquivo=============
+
+nano novo.txt
+
+**************dentro arquivo***********
+#!/bin/bash
+
+verificar=$(ls)
+
+echo "Conteúdo do diretório $verificar"
+
+***************************************
+
+chmod +x novo.txt
+./novo.txt
+
+==========================================
+
+nano script.txt
+
+**********************dentro arquivo***********
+
+#!/bin/bash
+
+espacoLivre=$(df -h)
+
+echo "Espaço livre em disco:  $espacoLivre"
+
+*************************************************
+
+chmod +x script.txt
+./ script.txt
+========================================================
+
+iniciar parte6
