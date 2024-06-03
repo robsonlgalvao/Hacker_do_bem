@@ -545,6 +545,93 @@ echo "Arquivo renomeado"
 chmod +x renomeando.txt
 ./renomeando.txt
 
+portas
+============================fora do arquivo==========================
+
+nano portas.sh
+
+*************************dentro do arquivo****************************
+
+#!/bin/bash
+
+host="127.0.0.1"
+portas=("80" "22" "443")
+
+for porta in "${portas[@]}";do
+	nc -zv "$host" "$porta" > /dev/null 2>&1 
+	if[$? -eq 0]; then
+		echo "Porta $porta está aberta em $host"
+	else
+		echo "Porta $porta está fechada em $host"
+	fi
+done
+*********************************************************************
+
+chmod +x portas.sh
+./ portas.sh
+
+=======================================================================
 
 
+========================detecção de tentativa de acesso========================
 
+nano ataque.sh
+
+******************************************************
+#! /bin/bash
+
+log_file="auth.log"
+limite_tentativas=5
+
+tentativas=$(grep "Failed Password" "log_file" | wc -l)
+
+if ["$tentativas"-ge" limite_tentativas"]; then
+	echo "Possivel ataque de força bruta detectado"
+else
+	echo "Nenhuma tentativa de força bruta"
+
+***********************************************************
+chmod +x ataque.sh
+./ ataque.sh
+
+===============================================================
+vericação de fraquezas
+
+nano falhas.sh
+
+***********************************************************
+#!/bin/bash
+
+sistema="Ubuntu"
+versao="20.04"
+
+falhas=$(grep "$sistema $versao" cve_database.txt)
+
+if[-n "$falhas"]; then
+echo "Falha encontrada no $sistema $versao"
+else
+echo "Nenhuma falha encontrada"
+fi
+**************************************************************
+chmod +x falhas.sh
+./falhas.sh
+
+================================================================
+
+coleta de evidências
+
+nano florence.sh
+************************************************************
+
+#!/bin/bash
+
+output_dir="/evidencias"
+log_file="auth.log"
+
+mkdir -p "output+dir"
+cp "$log_file" "output_dir/syslog.log"
+echo "Evidências coletadas"
+
+***************************************************************
+chmod +x florence.sh
+./florence.sh
