@@ -503,4 +503,48 @@ chmod +x script.txt
 ./ script.txt
 ========================================================
 
-iniciar parte6
+Manipulação no script
+
+================fora do arquivo====================
+nano mani.txt
+
+******************dentro arquivo*****************
+
+#!/bin/bash
+
+echo "Criando um diretório e cpiando um arquivo"
+
+mkdir novoDiretorio
+cp arquivo.txt
+
+echo "Diretório criado e arquivo copiado"
+
+*****************************************************
+
+chmod +x mani.txt
+./mani.txt
+
+Listagem de conteudo e renomeação de arquivos
+
+=============================fora do arquivo===================
+
+nano renomeando.txt
+
+*********************************dentro do arquivo***********
+
+#! /bin/bash
+
+echo "Listando conteúdo e renomeando um arquivo"
+
+ls novo_diretorio
+mv arquivo.txt novo_arquivo.txt
+
+echo "Arquivo renomeado"
+****************************************************************
+
+chmod +x renomeando.txt
+./renomeando.txt
+
+
+
+
