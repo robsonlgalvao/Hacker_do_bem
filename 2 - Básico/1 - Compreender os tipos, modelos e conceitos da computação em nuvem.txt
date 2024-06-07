@@ -1,2 +1,14 @@
 Computação na Nuvem
 
+oque é
+É o fornecimento de  recursos de computação através da internet, exemplo: armazenamento, processamento de software etc...
+
+história
+
+Software as a Service (SaaS)
+
+O marco inicial para a computação em nuvem aconteceu ainda no início dos anos 2000
+nesse ano alesforce introduziu o conceito de Software as a Service (SaaS), oferecendo aplicativos empresariais hospedados na nuvem.
+
+Como surgiu essa ideia?
+
