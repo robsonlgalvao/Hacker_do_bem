@@ -10,5 +10,72 @@ Software as a Service (SaaS)
 O marco inicial para a computação em nuvem aconteceu ainda no início dos anos 2000
 nesse ano alesforce introduziu o conceito de Software as a Service (SaaS), oferecendo aplicativos empresariais hospedados na nuvem.
 
-Como surgiu essa ideia?
+Diferença entre nuvem e on-premises(local)
+
+
+on-premise
+
+Os recursos de tecnologia é local
+
+Gerenciar e pagar pela energia elétrica
+Controlar o acesso aos servidores
+Controlar a segurança de redes
+Refrigerar o ambiente dos servidores
+Backup e recuperação de dados
+Adquirir novos equipamentos
+Alto custo inicial
+
+Modo nuvem
+
+Os recursos de tecnologia é pela internet
+
+Escalabilidade
+Acesso global
+redução de custos
+Manutenção simplificada
+
+nuvem vs on-premises
+
+Nuvem oferece escalabilidade flexibilidade e redução de custos operacionais
+
+On-premises oferece comtrole total sobre a infraestrutura e dados
+
+Hibrido combina os 2
+
+NIST
+
+O National Institute of Standards and Technology é uma agência governamental norte-americana responsável por promover os padrões de tecnologias. Essa agência faz parte do Departamento de Comércio dos EUA e cria normas e diretrizes sobre a segurança da informação.
+
+Pilares
+
+1- Autosserviço sob demanda
+
+O usuário tem a capacidade de provisionar e configurar recursos automaticamente sem necessidade de intervenção manual.
+
+2- Acesso amplo a rede
+
+Os recursos em nuvem são acessiveis de forma conveniente e transparente por meio de rede padrão
+
+3- Pool de Recursos
+
+Os recursos computacionais em nuvem são compartilhados entre varios usuários.
+
+4- Elasticidade rápida
+
+A capacidade de dimencionamento dos recursos em nuvem pode ser aumentada ou diminuida rapidamente.
+
+5- Serviço Mensurável
+
+Os recursos em nuvem são monitorados e controlados de forma granular, permitindo a medição e o monitoramento preciso do uso.
+
+
+Porque é confiável?
+
+Tolerancia a falhas, sistema projetado para sistema continuar funcionando mesmo se ocorrer falha em algum componente individual.
+Nuvem Utiliza técnicar de redundância de recursos, mecanismo de recuperação minimizando falhas.
+
+Replicação - é uma prática que garante que se der problema em um servidor, que tenha outro para substituir e os dados continue acessiveis.
+
+parte 5
+
 
