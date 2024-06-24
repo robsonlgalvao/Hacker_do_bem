@@ -77,5 +77,69 @@ Nuvem Utiliza técnicar de redundância de recursos, mecanismo de recuperação 
 Replicação - é uma prática que garante que se der problema em um servidor, que tenha outro para substituir e os dados continue acessiveis. Cada região abriga varias zonas de disponibilidade.
 Resiliência e disponibilidade
 
+Principais Provedores
+
+1 - AWS (Amazon Web Services)
+Fundada 2006 uma lider mundial com cerca de 200 serviços completos
+
+O serviços mais utilizados:
+
+Elastic Compute Cloud (EC2)
+Servidor escalável
+
+Simple Storage Services (S3)
+Serviço de armazenamento
+
+Elastic Beanstalk
+Desenvolvimento, implementação e escalabilidade para aplicativos web
+
+Amazon Lambda
+Código em resposta a eventos sem necessidade de um servidor
+
+Amazon RDS
+Banco de dados relacionais
 
 
+2 - Microsoft Azure Cloud
+Fundado em 2010 uma plataforma que possui centers em varios cantos do mundo
+
+O serviços mais utilizados:
+
+Azure Virtual Machines
+Maquina virtuais
+
+Azure Blob Storage
+Serviço de armazenamento
+
+Azure SQL Database
+Serviço de banco de dados relacionais
+
+Azure Functions
+Código em resposta a eventos sem necessidade de um servidor
+
+Azure App Services
+Desenvolvimento, implementação e escalabilidade para aplicativos web e moveis
+
+
+3 - GCP (Google Cloud Plataform)
+Lançado em 2008 tão grande e potente quanto as outras apresentadas
+
+O serviços mais utilizados:
+
+Google Computer Engine
+Maquina virtual
+
+Google Cloud Storage
+Serviço de Armazenamento
+
+Google Cloud Functions
+Código em resposta a eventos sem necessidade de um servidor
+
+Google AI e Machine Learning
+Fornece serviços para desenvolvimento e implementação de inteligencia artificial e machine learning
+
+Google App Engine
+Desenvolvimento, implementação e escalabilidade para aplicativos web e moveis gerenciando a infraestrutura de forma automática.
+
+
+Video IaaS
