@@ -74,8 +74,8 @@ Porque é confiável?
 Tolerancia a falhas, sistema projetado para sistema continuar funcionando mesmo se ocorrer falha em algum componente individual.
 Nuvem Utiliza técnicar de redundância de recursos, mecanismo de recuperação minimizando falhas.
 
-Replicação - é uma prática que garante que se der problema em um servidor, que tenha outro para substituir e os dados continue acessiveis.
+Replicação - é uma prática que garante que se der problema em um servidor, que tenha outro para substituir e os dados continue acessiveis. Cada região abriga varias zonas de disponibilidade.
+Resiliência e disponibilidade
 
-parte 5
 
 
