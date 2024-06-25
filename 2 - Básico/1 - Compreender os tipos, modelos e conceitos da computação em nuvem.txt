@@ -147,22 +147,47 @@ Modelos de computação em nuvem
 Modelo IaaS(Infraestrutura como serviço/ Infrastructure as a Service)
 Infraestrutura virtualizada sob demanda, como servidores, rede e armazenamento.
 Os clientes alugam recursos como servidores, redes e armazenamento.
+Responsabilidades
 Cliente : Informações e dados/Dispositivos/Infraestrutura de identidade e diretório/Aplicativos/Controles de Rede/OS
 Provedor: Hosts Físicos/Rede Física/Datacenter Físico
 exemplo de IaaS: Maquinas Virtuais
 
-Modelo PaaS(Plataforma como serviço) 
+Modelo PaaS(Plataforma como serviço/plataform as a Service) 
+
 Plataforma para desenvolver executar e gerenciar aplicativos.
+O modelo Plataforma como Serviço, também conhecido como PaaS, é um modelo de computação em nuvem que oferece uma plataforma completa para o desenvolvimento, teste e implantação de aplicativos. Ao fornecer uma infraestrutura pré-configurada e serviços adicionais, o PaaS visa simplificar o ciclo de vida do desenvolvimento de software, permitindo que as equipes de desenvolvimento se concentrem na criação de aplicativos inovadores. 
+Responsabilidades
+Cliente : Informações e dados/Dispositivos/contas identidades/infraestrutura e diretório/Aplicativo/Controle de rede
+Provedor: Infraestrutura de identidade e diretório/Aplicativos/Comtrole de rede/Os/Hostos físicos/Rede física/Datacenter físico
+
 
 Modelo SaaS(Software como serviço)
-Aplicativos disponibilizados aos usuários pela internet. os provedores de nuvem gerenciam a infraestrutura e o software.
+
+O SaaS significa Software como Serviço e é um modelo de distribuição de software baseado na nuvem que tem revolucionado a forma como as empresas utilizam e acessam aplicativos. Este modelo permite aos usuários acessarem aplicativos por um navegador web, atualização automáticas de softwares, entre outros serviços.
+esponsabilidades
+Cliente : Informações e dados/Dispositivos/contas e identidades/Infraestrutura de identidade e diretório/Backup dados próprio/monitoramento de uso
+Provedor: Infraestrutura de identidade e diretório/Aplicativos/Controle de rede/Os/Hostos físicos/Rede física/Datacenter físico
 
 
 O que é infraestrutura?
 Em computação em nuvem, a infraestrutura é a base necessária para suportar e operar sistemas de computação e redes, toda capacidade computacional, recursos de armazenamento e conectividade necessárias.
 
 
+Modelos de Implantação em nuvem
 
-Video PaaS
+Pública
+Pagamento sob demanda, para qualquer organização
+Agilidade para implantação, empresa paga apenas oq utiliza.
+
+Privada 
+Dedicada somente para uma organização, custo inicial elevado.
+Controle total sobre os recursos.
+
+Híbrida
+Combina pública e privada
+possibilidade de implantar oq for melhor em cada aplicativo.
+
+
+Aula3
 
 
