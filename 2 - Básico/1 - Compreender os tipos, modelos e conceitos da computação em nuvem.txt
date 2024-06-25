@@ -142,4 +142,22 @@ Google App Engine
 Desenvolvimento, implementação e escalabilidade para aplicativos web e moveis gerenciando a infraestrutura de forma automática.
 
 
-Video IaaS
+Modelos de computação em nuvem
+
+Modelo IaaS(Infraestrutura como serviço)
+Infraestrutura virtualizada sob demanda, como servidores, rede e armazenamento.
+
+Modelo PaaS(Plataforma como serviço)
+Plataforma para desenvolver esecutar e gerenciar aplicativos.
+
+Modelo SaaS(Software como serviço)
+Aplicativos disponibilizados aos usuários pela internet. os provedores de nuvem gerenciam a infraestrutura e o software.
+
+
+O que é infraestrutura?
+Em computação em nuvem, a infraestrutura é a base necessária para suportar e operar sistemas de computação e redes, toda capacidade computacional, recursos de armazenamento e conectividade necessárias.
+
+
+
+
+
